@@ -41,11 +41,11 @@
 
     </docinfo>
 
-    <book xml:id="TMC-lab-setup" xmlns:xi="http://physics.thomasmore.edu/PHY121Lab/">
+    <book xml:id="TMC-lab-setup" xmlns:xi="http://physics.thomasmore.edu/labs/">
         <title>Physics Lab Set-up</title>
         <subtitle>Thomas More College</subtitle>
 
-<frontmatter xml:id="set-up-index"> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
+<frontmatter xml:id="setup-index"> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
 
     <titlepage xml:id="setup-title">
 
@@ -111,14 +111,14 @@
     </acknowledgement>
 
     <preface xml:id="setup-PDF"><title>Download the PDF here</title>
-    <p>A PDF of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/TMC-lab-setup.pdf" />. (288 kB)</p>
+    <p>A large PDF of this document can be found at <url href="http://physics.thomasmore.edu/labs/TMC-lab-setup.pdf" />.</p>
     </preface>
 
 </frontmatter>
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="PHY121"> <title>PHY 121L: General Physics (algebra-based, fall)</title>
+<chapter xml:id="PHY121"> <title>PHY 121L: Elements of Physics (algebra-based, fall)</title>
 
 <section xml:id="s-meaningful-measurements"> <title>Meaningful Measurements</title>
 
@@ -771,10 +771,802 @@
 </chapter>
 
 <!-- ********************************************************************************************** -->
+<!-- ********************************************************************************************** -->
+<!-- ********************************************************************************************** -->
 
-<chapter xml:id="PHY122"> <title>PHY122L: General Physics (algebra-based, spring)</title>
+<chapter xml:id="PHY122"> <title>PHY122L: Elements of Physics (algebra-based, spring)</title>
 
-<p>.</p>
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-battery"><title>Properties of a Battery</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-battery">
+        <caption>Equipment Needed: <xref ref="s-rbridge" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell>Ensure that the non-major equipment is used</cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell></cell></row>
+<row bottom="minor"><cell>Electronics Lab</cell><cell>Resistors </cell><cell></cell></row>
+<row bottom="minor"><cell>AL12</cell><cell>Batteries </cell><cell></cell></row>
+<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell>Wires and Wire attachments </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-battery">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-battery" source="images/i-battery.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+
+
+</chapter>
+<!-- ********************************************************************************************** -->
+<!-- ********************************************************************************************** -->
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="PHY141"> <title>PHY141L: General Physics I (calculus-based, spring)</title>
+
+<p>See also <xref ref="PHY121" text="title" /></p>
+
+</chapter>
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="PHY142"> <title>PHY142L: General Physics II (calculus-based, spring)</title>
+
+<introduction>
+<p>See also <xref ref="PHY122" text="title" /></p>
+</introduction>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-Ohmslaw"><title>Ohm's Law (Ohmic material)</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-Ohmslaw">
+        <caption>Equipment Needed: <xref ref="s-Ohmslaw" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell><p>(JS listed a function generator AK23)</p></cell></row>
+<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell>Wires and Wire attachments </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell>Requires 4</cell></row>
+<row bottom="minor"><cell>AI25</cell><cell>Ammeter </cell><cell>Around 3 to 10 amps</cell></row>
+<row bottom="minor"><cell>Electronics Room</cell><cell>Resisters and Diodes </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-Ohmslaw">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-Ohmslaw" source="images/i-Ohmslaw.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-nonohmic"><title>Ohm's Law (non-Ohmic material)</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-nonohmic">
+        <caption>Equipment Needed: <xref ref="s-nonohmic" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Function Generator </cell><cell></cell></row>
+<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell>Wires and Wire attachments </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell>Requires 4</cell></row>
+<row bottom="minor"><cell>Electronics Room</cell><cell>Resisters and Diodes </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-nonohmic">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-nonohmic" source="images/i-nonohmic.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-efield"><title>Mapping the Electric Field</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-efield">
+        <caption>Equipment Needed: <xref ref="s-efield" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell></cell></row>
+<row bottom="minor"><cell>End cap of J <ampersand /> K</cell><cell>Wire and Wire Supplies </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell><p>JS also lists AJ43 and </p><p>AJ25: Small Black ones <ampersand /> Large Blue ones;
+AJ24: Small Blue ones <ampersand /> Boxed ones;
+AI15: Ones with three buttons
+</p>
+</cell></row>
+<row bottom="minor"><cell>AG24</cell><cell>Field Plate Apparatus and Field Plates </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-efield">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-efield" source="images/i-efield.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-rbridge"><title>Resistor Bridge</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-rbridge">
+        <caption>Equipment Needed: <xref ref="s-rbridge" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AJ43</cell><cell>Bridge Apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>AJ24</cell><cell>Resistor Coil Set </cell><cell></cell></row>
+<row bottom="minor"><cell>AJ23</cell><cell>Resistor Box </cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Power Supply </cell><cell></cell></row>
+<row bottom="minor"><cell>End of Isle J <ampersand /> K</cell><cell>Wires <ampersand /> Supplies </cell><cell></cell></row>
+<row bottom="minor"><cell>AI15</cell><cell>Galvanometer </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-rbridge">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-rbridge" source="images/i-rbridge.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-mfield"><title>Magnetic Field Strength</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-mfield">
+        <caption>Equipment Needed: <xref ref="s-mfield" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AM36</cell><cell>Magnet </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>2 Lab Jacks </cell><cell></cell></row>
+<row bottom="minor"><cell>AF34</cell><cell>Ruler </cell><cell></cell></row>
+<row bottom="minor"><cell>AF15</cell><cell>2 Blocks of Wood </cell><cell></cell></row>
+<row bottom="minor"><cell>Room S224 Closet</cell><cell>Magnetic Sensor </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-mfield">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-mfield" source="images/i-mfield.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-iforce"><title>High Current Force</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-iforce">
+        <caption>Equipment Needed: <xref ref="s-iforce" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>BA14</cell><cell>Current apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>AE61</cell><cell>Double-throw Switch </cell><cell></cell></row>
+<row bottom="minor"><cell>AF34</cell><cell>Ruler </cell><cell></cell></row>
+<row bottom="minor"><cell>End of Isle J <ampersand />K</cell><cell>Wire and Supplies </cell><cell></cell></row>
+<row bottom="minor"><cell>AK12</cell><cell>High Current Power Supply </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell></cell></row>
+<row bottom="minor"><cell>AA13</cell><cell>Caliper</cell><cell>(inconsistent listing)</cell></row>
+<row bottom="minor"><cell>AF43</cell><cell>Small mass set</cell><cell>(inconsistent listing)</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-iforce">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-iforce" source="images/i-iforce.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-magtube"><title>Magnet in a Tube</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-magtube">
+        <caption>Equipment Needed: <xref ref="s-magtube" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AH63</cell><cell>Magnetic pipe apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>white box</cell><cell>Magnet and non-magnet</cell><cell></cell></row>
+<row bottom="minor"><cell>-</cell><cell>Foam Pads</cell><cell></cell></row>
+<row bottom="minor"><cell>S224 Closet</cell><cell>Force Sensor </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-magtube">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-magtube" source="images/i-magtube.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-RCvary"><title>Capacitor and Variable Resistor</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-RCvary">
+        <caption>Equipment Needed: <xref ref="s-RCvary" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Function Generator </cell><cell></cell></row>
+<row bottom="minor"><cell>End of Isle J <ampersand /> K</cell><cell>Wire and Supplies </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell></cell></row>
+<row bottom="minor"><cell>AJ13</cell><cell>Resistor Apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>AJ26</cell><cell>Varying Resistor Bored </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-RCvary">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-RCvary" source="images/i-RCvary.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+
+</chapter>
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="PHY241"> <title>PHY241L: General Physics III (calculus-based, spring)</title>
+
+<introduction>
+<p>See also <xref ref="PHY122" text="title" /></p>
+</introduction>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-Archimedes"><title>Archimedes' Principle</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-Archimedes">
+        <caption>Equipment Needed: <xref ref="s-Archimedes" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AE82</cell><cell>Objects </cell><cell></cell></row>
+<row bottom="minor"><cell>AA13</cell><cell>Vernier Caliper </cell><cell></cell></row>
+<row bottom="minor"><cell>AG44</cell><cell>Overflow Cup </cell><cell></cell></row>
+<row bottom="minor"><cell>AF35</cell><cell>Scales </cell><cell></cell></row>
+<row bottom="minor"><cell>AG11 (isle E)</cell><cell>Beaker </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AG35 (Black and silver cups)</cell><cell><q>Boats</q></cell><cell></cell></row>
+<row bottom="minor"><cell>AL32</cell><cell>Pennies </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AF63</cell><cell>Fish Tank </cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-Archimedes-1">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-Archimedes-1" source="images/i-Archimedes-1.jpg" />
+        </figure>
+
+        <figure xml:id="f-Archimedes-2">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-Archimedes-2" source="images/i-Archimedes-2.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-standing"><title>Standing Waves</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-standing">
+        <caption>Equipment Needed: <xref ref="s-standing" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Function generator </cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>two-meter stick</cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AG16</cell><cell>Lead Brick </cell><cell></cell></row>
+<row bottom="minor"><cell>AD72 <ampersand /> AE81</cell><cell>Pulley system </cell><cell></cell></row>
+<row bottom="minor"><cell>AF13</cell><cell>Vibrator </cell><cell></cell></row>
+<row bottom="minor"><cell>Inside of the vibrator box</cell><cell>String </cell><cell></cell></row>
+<row bottom="minor"><cell>AF44</cell><cell>Masses and Hooks </cell><cell></cell></row>
+<row bottom="minor"><cell>End cap of isle J <ampersand /> K</cell><cell>Wires </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AN24</cell><cell>Strobe light </cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-standing">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-standing" source="images/i-standing.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-sound"><title>Speed of Sound in a Tube</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-sound">
+        <caption>Equipment Needed: <xref ref="s-sound" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK63</cell><cell>Speaker </cell><cell></cell></row>
+<row bottom="minor"><cell>Room S224 Closet</cell><cell>Sound Sensor </cell><cell></cell></row>
+<row bottom="minor"><cell>AF12</cell><cell>Cardboard Tube </cell><cell>Use the cardboard tubes used to hold the aluminum tracks</cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>two-meter stick </cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Function Generator </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-sound">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-sound" source="images/i-sound.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-expansion"><title>Thermal Expansion</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-expansion">
+        <caption>Equipment Needed: <xref ref="s-expansion" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>S224 closet</cell><cell>Mirror </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Hot plate </cell><cell>Only have 5</cell></row>
+<row bottom="minor"><cell>AG15</cell><cell>Gloves </cell><cell></cell></row>
+<row bottom="minor"><cell>AF31</cell><cell>Jar and Lid </cell><cell></cell></row>
+<row bottom="minor"><cell>AG55 <ampersand /> AG56</cell><cell>Apparatus: Pipe, tubing, and pan</cell><cell><p>Pan can be found at AG45</p></cell></row>
+<row bottom="minor"><cell>AG56</cell><cell>Expansion rods </cell><cell></cell></row>
+<row bottom="minor"><cell>AE41</cell><cell>Stoppers </cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>Meter stick </cell><cell></cell></row>
+<row bottom="minor"><cell>Room S224</cell><cell>Thermometer </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-expansion">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-expansion" source="images/i-expansion.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-Boyleslaw"><title>Boyle's Law</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-Boyleslaw">
+        <caption>Equipment Needed: <xref ref="s-Boyleslaw" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle G <ampersand /> H</cell><cell>Boyle's law apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>Faucet</cell><cell>water</cell><cell>(fill the apparatus to the appropriate height)</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-Boyleslaw">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-Boyleslaw" source="images/i-Boyleslaw.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-specheat"><title>Specific Heat Capacity</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-specheat">
+        <caption>Equipment Needed: <xref ref="s-specheat" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AC11</cell><cell>Beaker</cell><cell></cell></row>
+<row bottom="minor"><cell>AG44</cell><cell>Calorimeter</cell><cell>the insulated cup</cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Hot Plate </cell><cell>only have 5</cell></row>
+<row bottom="minor"><cell>Room S224, BB21</cell><cell>2 Thermometers </cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>Rods </cell><cell></cell></row>
+<row bottom="minor"><cell>AG37</cell><cell>Objects </cell><cell></cell></row>
+<row bottom="minor"><cell>AF15 (AG15?)</cell><cell>Gloves </cell><cell></cell></row>
+<row bottom="minor"><cell>AE21</cell><cell>string</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-specheat-2">
+                <caption>The equipment setup (revised).</caption>
+                <image xml:id="i-specheat-2" source="images/i-specheat-2.jpg" />
+        </figure>
+
+        <figure xml:id="f-specheat">
+                <caption>The equipment setup (old version, but better view of most equipment).</caption>
+                <image xml:id="i-specheat" source="images/i-specheat.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-cooling"><title>Newton's Law of Cooling</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-cooling">
+        <caption>Equipment Needed: <xref ref="s-cooling" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Hot Plate </cell><cell></cell></row>
+<row bottom="minor"><cell>AG11</cell><cell>Large and Small Beaker </cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>Stand to hold objects and Wires </cell><cell></cell></row>
+<row bottom="minor"><cell>Room S224, BB21</cell><cell>Thermometer </cell><cell></cell></row>
+<row bottom="minor"><cell>AF15</cell><cell>Gloves </cell><cell></cell></row>
+<row bottom="minor"><cell>Either in lab room or room S224</cell><cell>Computer with Pasco </cell><cell></cell></row>
+<row bottom="minor"><cell>AG58</cell><cell>Bottles </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-cooling">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-cooling" source="images/i-cooling.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-refraction"><title>Snell's Law of Refraction</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-refraction">
+        <caption>Equipment Needed: <xref ref="s-refraction" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AH34</cell><cell>Refraction Plates </cell><cell></cell></row>
+<row bottom="minor"><cell>AH45</cell><cell>Card bored Plates </cell><cell></cell></row>
+<row bottom="minor"><cell>AAAA</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AA43</cell><cell>Pins </cell><cell></cell></row>
+<row bottom="minor"><cell>AA42</cell><cell>Protractor </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-refraction">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-refraction" source="images/i-refraction.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-reflectionrefraction"><title>Reflection and Refraction</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-reflectionrefraction">
+        <caption>Equipment Needed: <xref ref="s-reflectionrefraction" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AH34</cell><cell>Refraction Plates </cell><cell></cell></row>
+<row bottom="minor"><cell>AH45</cell><cell>Cardboard Plates </cell><cell></cell></row>
+<row bottom="minor"><cell>AH45</cell><cell>Red Plastic Lens </cell><cell></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Lamps </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AA21</cell><cell>Hinged Mirror </cell><cell></cell></row>
+<row bottom="minor"><cell>AA43</cell><cell>Pins </cell><cell></cell></row>
+<row bottom="minor"><cell>AA42</cell><cell>Protractor </cell><cell></cell></row>
+<row bottom="minor"><cell>AG12</cell><cell>Light Pipe </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-reflectionrefraction">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-reflectionrefraction" source="images/i-reflectionrefraction.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-radiation"><title>Radiation</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-radiation">
+        <caption>Equipment Needed: <xref ref="s-radiation" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>(ASK)</cell><cell>Radioactive Samples</cell><cell></cell></row>
+<row bottom="minor"><cell>AG16</cell><cell>Lead Bricks </cell><cell></cell></row>
+<row bottom="minor"><cell>-</cell><cell>Stop Watch</cell><cell></cell></row>
+<row bottom="minor"><cell>AM53</cell><cell>Geiger counter </cell><cell></cell></row>
+<row bottom="minor"><cell>AM43</cell><cell>Shields </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+<!--
+        <figure xml:id="f-radiation">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-radiation" source="images/i-radiation.jpg" />
+        </figure>
+-->
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-interferometer"><title>Interferometer</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-interferometer">
+        <caption>Equipment Needed: <xref ref="s-interferometer" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AN32</cell><cell>Interferometer </cell><cell></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>AK4</cell><cell>Screen </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jacks </cell><cell></cell></row>
+<row bottom="minor"><cell>AG12</cell><cell>Hand Pump </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-interferometer">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-interferometer" source="images/i-interferometer.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
 
 </chapter>
 <!-- ********************************************************************************************** -->

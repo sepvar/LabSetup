@@ -2,3 +2,6 @@
 *.html
 # ignore the TEX details, but keep the pdf
 TMC-lab-setup.*
+# Generally ignore XLSX files
+*.xlsx
+*.XLSX
