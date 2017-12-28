@@ -1,0 +1,4 @@
+#ignore the HTML files
+*.html
+# ignore the TEX details, but keep the pdf
+TMC-lab-setup.*
