@@ -152,7 +152,7 @@
         <caption>
         The Vernier Caliper
         </caption>
-        <image source="vernier.JPG" width="100%">
+        <image source="images/vernier.JPG" width="100%">
         <description>The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
         The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m>.
         </description>
@@ -161,7 +161,7 @@
 
         <figure xml:id="f-micrometer">
         <caption><term>The Micrometer Caliper</term></caption>
-        <image source="micrometer.JPG" width="100%">
+        <image source="images/micrometer.JPG" width="100%">
         <description>Notice on the coarse scale, that the lower lines read (1, 2, 3, <ellipsis /> 6 in this picture) and the higher lines read
         the half-marks (0.5, 1.5, 2.5, <ellipsis /> 6.5 in this picture).  The location of the turning dial tells you where to read the
         coarse scale (6.5 mm).  The center line of the coarse scale tells you where to read the fine scale.
@@ -287,7 +287,7 @@
 
         <figure xml:id="f-Newton">
                 <caption>The equipment setup.</caption>
-                <image xml:id="i-Newton-overall" source="i-Newton-overall.jpg" />
+                <image xml:id="i-Newton-overall" source="images/i-Newton-overall.jpg" />
         </figure>
 
     <p>(Updated: October 12, 2017)</p>
@@ -344,12 +344,12 @@
 
         <figure xml:id="f-friction">
                 <caption>The equipment setup.</caption>
-                <image xml:id="i-friction-detail" source="i-friction-detail.jpg" />
+                <image xml:id="i-friction-detail" source="images/i-friction-detail.jpg" />
         </figure>
         <figure xml:id="f-friction-2">
 		<caption>The equipment setup.</caption>
 		<!-- Portrait orientation images need to be reduced for the PDF version -->
-                <image xml:id="i-friction-overall" width="75%" source="i-friction-overall.jpg" />
+                <image xml:id="i-friction-overall" width="75%" source="images/i-friction-overall.jpg" />
         </figure>
 
     <p>(Updated: October 12, 2017)</p>
@@ -393,7 +393,7 @@
 
         <figure xml:id="f-centripetal">
                 <caption>The equipment setup.</caption>
-                <image xml:id="i-centripetal-overall" source="i-centripetal-overall.jpg" />
+                <image xml:id="i-centripetal-overall" source="images/i-centripetal-overall.jpg" />
         </figure>
 
     <p>(Updated: October 12, 2017)</p>
@@ -445,11 +445,11 @@
         <figure xml:id="f-springs">
                 <caption>The equipment setup version <q>A</q>.  Your instructor might want the track setup in a different way.</caption>
 		<!-- Portrait orientation images need to be reduced for the PDF version -->
-                <image xml:id="i-springs-overall-A" width="50%" source="i-springs-overall-A.jpg" />
+                <image xml:id="i-springs-overall-A" width="50%" source="images/i-springs-overall-A.jpg" />
         </figure>
         <figure xml:id="f-springs-2">
                 <caption>The equipment setup version <q>A</q>.  Your instructor might want the track setup in a different way.</caption>
-                <image xml:id="i-springs-clamps-A" source="i-springs-clamp-A.jpg" />
+                <image xml:id="i-springs-clamps-A" source="images/i-springs-clamp-A.jpg" />
         </figure>
 
     <p>(Updated: October 12, 2017)</p>
@@ -497,12 +497,12 @@
         <figure xml:id="f-pendulum">
                 <caption>The equipment setup.</caption>
 		<!-- Portrait orientation images need to be reduced for the PDF version -->
-                <image xml:id="i-pendulum-overall" width="50%" source="i-pendulum-overall.jpg" />
+                <image xml:id="i-pendulum-overall" width="50%" source="images/i-pendulum-overall.jpg" />
         </figure>
         <figure xml:id="f-pendulum-2">
                 <caption>The equipment setup.</caption>
 		<!-- ZOOMED Portrait orientation images might need to be reduced for the PDF version -->
-                <image xml:id="i-pendulum-clamp" source="i-pendulum-clamp.jpg" />
+                <image xml:id="i-pendulum-clamp" source="images/i-pendulum-clamp.jpg" />
         </figure>
 
     <p>(Updated: October 12, 2017)</p>
@@ -558,7 +558,7 @@
 
         <figure xml:id="f-energy">
                 <caption>The equipment setup.</caption>
-                <image xml:id="i-energy-overall" source="i-energy-overall.jpg" />
+                <image xml:id="i-energy-overall" source="images/i-energy-overall.jpg" />
         </figure>
 
     <p>(Updated: October 25, 2017)</p>
@@ -641,14 +641,14 @@
 
         <figure xml:id="f-ballistic">
                 <caption>The equipment setup.</caption>
-                <image xml:id="i-ballistic-overall" source="i-ballistic-overall.jpg" />
+                <image xml:id="i-ballistic-overall" source="images/i-ballistic-overall.jpg" />
         </figure>
 
         <figure xml:id="f-ballistic-rearrange">
                 <caption>When rearranging the tables, but aware that under each table, there is a cord plugged into the floor or the wall.  These can be unwound and, with a screwdriver, the stopper can be moved so that a longer stretch of cord is extended.</caption>
                 <sidebyside widths="49% 49%">
-                        <image xml:id="i-tight-cord" source="i-tight-cord.jpg" />
-                        <image xml:id="i-extend-cord" source="i-extend-cord.jpg" />
+                        <image xml:id="i-tight-cord" source="images/i-tight-cord.jpg" />
+                        <image xml:id="i-extend-cord" source="images/i-extend-cord.jpg" />
                 </sidebyside>
         </figure>
 
@@ -711,15 +711,15 @@
 
         <figure xml:id="f-equilibrium-1">
                 <caption>The necessary equipment laid out.</caption>
-                <image xml:id="i-forearm-equip" source="i-forearm-equip-landscape.jpg" />
+                <image xml:id="i-forearm-equip" source="images/i-forearm-equip-landscape.jpg" />
         </figure>
         <figure xml:id="f-equilibrium-2">
 		<caption><alert>If</alert> your instructor wants you to set up the <q>arm</q>, then this is how it is connected.  Notice that the two clamps on the outer edges hang down and the clamp connected to the spring <q>hangs</q> up.</caption>
-                <image xml:id="i-forearm-setup" source="i-forearm-setup.jpg" />
+                <image xml:id="i-forearm-setup" source="images/i-forearm-setup.jpg" />
         </figure>
         <figure xml:id="f-equilibrium-3">
 		<caption>How to set up the support.  Recall also <xref ref="f-springs" text="type-global" /> and <xref ref="f-springs-2" text="type-global" />.</caption>
-                <image xml:id="i-forearm-stand" source="i-forearm-stand.jpg" />
+                <image xml:id="i-forearm-stand" source="images/i-forearm-stand.jpg" />
         </figure>
 
     <p>(Updated: November 15, 2017)</p>  <!-- reconfigured with the track with ruler on it. Added pictures  -->
@@ -757,7 +757,7 @@
 <!--
         <figure xml:id="f-labname">
                 <caption>The equipment setup.</caption>
-                <image xml:id="i-labname-overall" source="i-labname-overall.jpg" />
+                <image xml:id="i-labname-overall" source="images/i-labname-overall.jpg" />
         </figure>
 -->
 
