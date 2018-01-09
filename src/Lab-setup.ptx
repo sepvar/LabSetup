@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mathbook xml:lang="en-US">
+
+    <docinfo>
+	<macros>
+        \newcommand{\JC}[1]{}
+        \newcommand{\unit}[1]{\,{\rm #1}}
+        \newcommand{\unitfrac}[2]{\mbox{$\phantom{1\!}^{{\rm #1}\!\!}/_{\!\!{\rm #2}}$}}
+        \newcommand{\sig}[3]{\underline{#1}{#2}\unit{#3}}
+        \newcommand{\sigfrac}[4]{\underline{#1}{#2}\unitfrac{#3}{#4}}
+        \newcommand{\ten}[1]{\times 10^{#1}}
+
+        \newcommand{\deq}{\displaystyle}
+<!-- </macros>
+        <latex-preamble>
+-->
+        \setlength{\evensidemargin}{0in}
+        \setlength{\oddsidemargin}{-.15in}
+        \setlength{\textwidth}{6.6in}
+        \setlength{\marginparwidth}{.6in}
+        \setlength{\marginparsep}{.15in}
+
+        \setlength{\topmargin}{-0.75in}
+        \setlength{\headheight}{0.1in}
+        \setlength{\headsep}{0.25in}
+        \setlength{\textheight}{9.2in}
+        \setlength{\footskip}{0.5in}
+
+        </macros>
+
+
+        <latex-image-preamble>
+        \usepackage{color}
+        \usepackage{graphicx}
+        </latex-image-preamble>
+
+        <cross-references text="global" />
+
+        <rename element="chapter" lang="en-US">Class</rename>
+        <rename element="section" lang="en-US">Lab</rename>
+
+    </docinfo>
+
+    <book xml:id="TMC-lab-setup" xmlns:xi="http://physics.thomasmore.edu/labs/">
+        <title>Physics Lab Set-up</title>
+        <subtitle>Thomas More College</subtitle>
+
+<frontmatter xml:id="setup-index"> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
+
+    <titlepage xml:id="setup-title">
+
+        <author>
+            <personname>Joe Christensen</personname>
+            <department>Department of Physics and Mathematics</department>
+            <institution>Thomas More College</institution>
+            <email>ChristJ@ThomasMore.edu</email>
+        </author>
+
+        <credit>
+            <title>Credit for MathBookXML / <pretext /> format:</title>
+            <author>
+                <personname>Robert A. Beezer</personname>
+                <email>beezer@pugetsound.edu</email>
+            </author>
+        </credit>
+
+        <date>Latest update: <today /></date>
+
+    </titlepage>
+
+    <colophon xml:id="setup-colophon">
+
+        <edition>Annual Edition 2017</edition>
+
+        <website>
+            <name><c>TMC Physics</c></name>
+            <address>http://www.thomasmore.edu/physics/</address>
+        </website>
+
+        <copyright>
+            <year>2017<ndash />2018</year>
+            <holder>J. Christensen</holder>
+            <minilicense>GFDL License</minilicense>
+            <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the
+            GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation;
+            with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+            A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>
+            All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
+        </copyright>
+
+    </colophon>
+
+    <acknowledgement xml:id="setup-ack">
+
+        <p>I would like to acknowledge the following reviewers for their helpful comments and suggestions. </p>
+
+        <p><ul>
+            <li><p>Physics adjunct instructors who provided feedback about the labs
+                <ul>
+                    <li><p>Tom Neal, Physics Adjunct</p></li>
+                </ul></p></li>
+            <li><p>Physics faculty who designed and contributed to the design of the lab experiments
+                <ul>
+                    <li><p>Jack Wells</p></li>
+                    <li><p>Dr. Wes Ryle</p></li>
+                    <li><p>Dr. Jeremy Huber</p></li>
+                </ul></p></li>
+        </ul>
+        </p>
+
+    </acknowledgement>
+
+    <preface xml:id="setup-PDF"><title>Download the PDF here</title>
+    <p>A large PDF of this document can be found at <url href="http://physics.thomasmore.edu/labs/TMC-lab-setup.pdf" />.</p>
+    </preface>
+
+</frontmatter>
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="PHY121"> <title>PHY 121L: Elements of Physics (algebra-based, fall)</title>
+
+<section xml:id="s-meaningful-measurements"> <title>Meaningful Measurements</title>
+
+        <table xml:id="t-meaningful-measurements">
+        <caption>Equipment Needed: Meaningful Measurements</caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AA13</cell><cell><p>1 Vernier caliper (<xref ref="f-vernier" text="type-global" />)</p></cell><cell><p>Ask faculty if they want digit or analog</p><p>before and after lab, verify
+                        digital calipers are turned off</p></cell></row>
+                        <row bottom="minor"><cell>AA14</cell><cell><p>1 micrometer (<xref ref="f-vernier" text="type-global" />)</p></cell><cell><p>before and after lab verify jaws are not tight</p></cell></row>
+                        <row bottom="minor"><cell>AF34-14</cell><cell>1 metric ruler</cell><cell><p>could be a 1-foot ruler or a 0.25-meter stick</p></cell></row>
+                        <row bottom="minor"><cell>AF55-19</cell><cell><p>1 tall, skinny, graduated cylinder</p></cell><cell><p>at least 2 of the 3 objects should fit inside the graduated cylinder</p></cell></row>
+                        <row bottom="minor"><cell>AE21</cell><cell><p>string</p></cell><cell><p>sufficient string to tie onto the objects in order to immerse them in the cylinder and retrieve them</p></cell></row>
+                        <row bottom="minor"><cell>AE82</cell><cell><p>3 objects to measure</p></cell><cell><p>Ask faculty which objects they want (smooth sphere, rough sphere, cube, block of metal, irregular shape,
+                        etc)</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>S224</p><p>AF36-4</p></cell><cell>at least 1 digital scale</cell><cell><p>the available scale(s) should be able to weigh the chosen objects</p></cell></row>
+                </tabular>
+        </table>
+        <todo>(1) Check if AF55 is location of graduated cylinders (in cabinet) - is this AB or AC?.
+                (2) Check if AF36-4 is location of digital scales.
+                (3) Need a picture of equipment laid out.</todo>
+
+        <figure xml:id="f-vernier">
+        <title>The Vernier Caliper</title>
+        <caption>
+        The Vernier Caliper
+        </caption>
+        <image source="images/vernier.JPG" width="100%">
+        <description>The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
+        The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m>.
+        </description>
+        </image>
+        </figure>
+
+        <figure xml:id="f-micrometer">
+        <caption><term>The Micrometer Caliper</term></caption>
+        <image source="images/micrometer.JPG" width="100%">
+        <description>Notice on the coarse scale, that the lower lines read (1, 2, 3, <ellipsis /> 6 in this picture) and the higher lines read
+        the half-marks (0.5, 1.5, 2.5, <ellipsis /> 6.5 in this picture).  The location of the turning dial tells you where to read the
+        coarse scale (6.5 mm).  The center line of the coarse scale tells you where to read the fine scale.
+        This is 23.0 (in units of <m>\times 10^{-2}</m> mm), but not 23.5 and not 22.5 so the precision is 0.5 (in these units).
+        This measurement in mm reads <m>6.5 \unit{mm} + 0.230\unit{mm} = 6.730 \pm 0.005 \unit{mm}</m>.
+        </description>
+        </image>
+        </figure>
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-meaningful-measurements.html" /></p>
+    <p>A PDF version of the write-up might be found at <url href="http://physics.thomasmore.edu/Labs/121/Measurement.pdf">Measurement.pdf (291 kB)</url></p>
+
+</section>
+
+
+<!-- ********************************************************************************************** -->
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-standard-deviation"> <title>Standard Deviation</title>
+
+        <table xml:id="t-standard-deviation">
+        <caption>Equipment Needed: Standard Deviation</caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium">
+                                <cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium">
+                                <cell colspan="3"  halign="left"><alert>At the front for students to share</alert></cell></row>
+                        <row bottom="minor"><cell>AL32-5</cell><cell>several boxes/bags of pennies</cell>
+                                <cell><p>in sufficient number for each student to have up to 50 pennies</p></cell></row>
+                </tabular>
+        </table>
+
+
+    <p>(Updated: September 6, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-standard-deviation.html" /></p>
+    <p>A PDF version of the write-up might be found at <url href="http://physics.thomasmore.edu/Labs/121/StDev.pdf">StDev.pdf (232 kB)</url></p>
+</section>
+
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-acceleration"><title>Constant Acceleration</title>
+
+        <table xml:id="t-acceleration">
+                <caption>Equipment Needed: <xref ref="s-acceleration" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (same as <q>sonic ranger</q>)</p></cell><cell><p>Should have a black-yellow plug</p></cell></row>
+                        <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell><cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF15</cell><cell><p>Wood Squares</p></cell><cell><p>probably 2-3, used to prop up one end of track</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart with <q>sail</q></p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell><cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell><cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell><cell><p>Computer</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>AA41 or AA42 (drawers)</p></cell><cell>1 gravity protractor</cell><cell><p>This is the large yellow protractor </p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p>
+                                        <p><em>This really only needs to be a short string with a washer or other small mass tied to it.</em></p></cell></row>
+                </tabular>
+        </table>
+        <todo>(1) Need a picture of equipment laid out
+                (2) Are the protractors at AA41 or AL14-2?
+                (3) 2-sized blocks???  (AF151-1)</todo>
+
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-acceleration.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/Acceleration.pdf">Acceleration.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-Newton"><title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
+
+        <table xml:id="t-Newton">
+        <caption>Equipment Needed: <xref ref="s-Newton" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (AKA <q>sonic ranger</q>)</p></cell><cell><p>Should have a black-yellow plug</p></cell></row>
+                        <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell><cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF15</cell><cell><p>2-3 small wooden squares</p></cell><cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 wooden cart-block</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell><cell><p>These might already be attached to the string in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>(attached to plastic bucket?)</p></cell><cell><p>string</p></cell><cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long.  This is likely in a large box labelled <q>DYNAMIC CARTS
+                                AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell><cell><p>used to level the string</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell><cell><p>used to check the level of the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell><cell><p>These are to ride the cart.  <alert>Check with instructor: EITHER</alert> an assortment of 100-500 gram, cylindrical masses <alert>OR</alert> 2 black rectangular masses that fit into the cart(like the 1-wooden block above).</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44 or AL32-5</p></cell><cell><p>tiny weights</p></cell><cell><p>These are to transfer between the cart and the basket.  <alert>Check with instructor: EITHER</alert> an assortment of 7-10 very small masses (2-5 grams) <alert>OR</alert> 10
+                                pennies.</p></cell></row>
+                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell><cell><p>Computer</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell><cell><p>(please verify that these function and are set to metric)</p></cell></row>
+                        <row bottom="minor"><cell><p>AA41, AA42</p></cell><cell><p>Gravity Protractor</p></cell><cell><p>Used to level the track. (There are enough to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p>
+                                        <p><em>This really only needs to be a short string with a washer or other small mass tied to it.</em></p></cell></row>
+                </tabular>
+        </table>
+        <todo>(1) This picture does not show everything.  Maybe get a picture of equipment laid out clearly?
+                (2) Might want a better (neutral background) picture of equipment set up.
+                (3) Might need a picture of the gravity protractor to clarify what this is ??</todo>
+
+        <figure xml:id="f-Newton">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-Newton-overall" source="images/i-Newton-overall.jpg" />
+        </figure>
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-Newton.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/Newton.pdf">Newton.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-friction"><title>Dry Sliding Friction</title>
+
+        <p>Most of this equipment is the same as <xref ref="s-Newton" text="title" />, but it is not exactly the same.</p>
+        <table xml:id="t-friction">
+        <caption>Equipment Needed: <xref ref="s-friction" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (AKA <q>sonic ranger</q>)</p></cell><cell><p>Should have a black-yellow plug</p></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 force transducer</p></cell><cell><p>Should be the thing shaped to sit on top of the wooden cart-block and it has a loop-screw at one side to tie a string to</p></cell></row>
+                        <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell><cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 wooden cart-block</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell><cell><p>These might already be attached to the string in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>(attached to plastic bucket?)</p></cell><cell><p>string</p></cell><cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long.  This is likely in a large box labelled <q>DYNAMIC CARTS
+                                AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell><cell><p>used to level the string</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell><cell><p>used to check the level of the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AF15</p></cell><cell><p>2-3 small wooden squares</p></cell><cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell><cell><p>These are to ride the cart.  <alert>Check with instructor: EITHER</alert> cylindrical masses (2 500-g, 4 200-g, 2 100-g) <alert>OR</alert> 2 black rectangular masses that fit into the cart (like the 1-wooden block above).</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44 or AL32-5</p></cell><cell><p>tiny weights</p></cell><cell><p>These are to transfer between the cart and the basket.  <alert>Check with instructor: EITHER</alert> an assortment of 7-10 very small masses (2-5 grams) <alert>OR</alert> 10
+                                pennies.</p></cell></row>
+                        <row bottom="minor"><cell><p>AE21</p></cell><cell><p>string</p></cell><cell><p>This string is for pulling the force transducer, not the same as the string that is attached to the plastic bucket</p></cell></row>
+                        <row bottom="minor"><cell><p>AG15</p></cell><cell><p>1 thermal glove</p></cell><cell><p><alert>Check with the instructor.</alert>  This is only used as a soft glove to catch the cart in case it accelerates too quickly.  Not all instructors want this.</p></cell></row>
+                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell><cell><p>Computer</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell>
+                                <cell><p>(please verify that these function and are set to metric)</p></cell></row>
+                        <row bottom="minor"><cell><p>AA41, AA42</p></cell><cell><p>Gravity Protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p>
+                                        <p><em>This really only needs to be a short string with a washer or other small mass tied to it.</em></p></cell></row>
+                </tabular>
+        </table>
+        <todo>(1) Check location of string (AE21?)
+                (2) Not all equipment is in this picture.
+                (3) Might need a separate picture of the gravity protractor to clarify what this is.</todo>
+
+        <figure xml:id="f-friction">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-friction-detail" source="images/i-friction-detail.jpg" />
+        </figure>
+        <figure xml:id="f-friction-2">
+		<caption>The equipment setup.</caption>
+		<!-- Portrait orientation images need to be reduced for the PDF version -->
+                <image xml:id="i-friction-overall" width="75%" source="images/i-friction-overall.jpg" />
+        </figure>
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-friction.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/friction.pdf">friction.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-centripetal"><title>Centripetal Force</title>
+
+        <p>This describes the old equipment.  New equipment (that plugs into the PASCO interface) has been purchased, but that equipment list has not been itemized yet.</p>
+        <table xml:id="t-centripetal">
+        <caption>Equipment Needed: <xref ref="s-centripetal" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AA13</cell><cell>1 caliper</cell>
+                                <cell><p><alert>Ask instructor</alert> if they want digital or analog (they might not care)</p></cell></row>
+                        <row bottom="minor"><cell>AA12</cell><cell>1 stop watch</cell>
+                                <cell><p>Verify that they work and have good batteries.</p> <p><alert>You might need to purchase new batteries for department!!</alert> </p></cell></row>
+                        <row bottom="minor"><cell>AD71</cell><cell>1 C-clamp</cell>
+                                <cell><p><alert>Important:</alert> There are small pieces of cardboard available to place between the clamp and the lab table so that you do not add dents to the table!</p></cell></row>
+                        <row bottom="minor"><cell><p>end of AD</p></cell><cell>1 thick metal rod</cell>
+                                <cell><p>Mount horizontally off the table to hang the (spinning) carriage</p></cell></row>
+                        <row bottom="minor"><cell>AF14-1-6</cell><cell>1 centripetal force apparatus</cell>
+                                <cell><p>(with card?)</p></cell></row>
+                        <row bottom="minor"><cell>AF46</cell><cell>1 0.5-kg hanger</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF46</cell><cell><p>Large cylindrical masses: 1 2-kg, 2 1-kg, 1 0.5-kg</p></cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF44</cell><cell><p>Additional small cylindrical masses of various sizes</p></cell>
+                                <cell><p>include at least one of each: 200-g, 100-g, 50-g, 20-g</p></cell></row>
+                </tabular>
+        </table>
+        <todo>This was just a picture, maybe get a new picture with equipment laid out more clearly?</todo>
+
+        <figure xml:id="f-centripetal">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-centripetal-overall" source="images/i-centripetal-overall.jpg" />
+        </figure>
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/centripetal.pdf">centripetal.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-springs"><title>Hooke's Law / Springs / Peer Review</title>
+
+        <warning><p>This lab might be set-up by itself or it might be paired with <xref ref="s-pendulum" text="title" />.  <alert>Check with your instructor</alert> to see if this is part of the <q>Peer Review</q> setup.  If so, then discuss the setup.  The instructor might
+        want both Springs and Pendulum in both the morning and afternoon labs (in which case you need to verify how many setups of each lab and which tables), or the instructor might want one lab setup in the morning and a different lab setup in the
+        afternoon.</p></warning>
+
+        <table xml:id="t-springs">
+        <caption>Equipment Needed: <xref ref="s-springs" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AD41</cell><cell>1 2-slot-perpendicular clamp</cell>
+                                <cell><p>This is used to connect the vertical thick rod to the horizontal small rod</p></cell></row>
+                        <row bottom="minor"><cell>AD71</cell><cell>1 C-clamp</cell>
+                                <cell><p><alert>Important:</alert> There are small pieces of cardboard available to place between the clamp and the lab table so that you do not add dents to the table!</p></cell></row>
+                        <row bottom="minor"><cell>AD82</cell><cell>1 clamp</cell>
+                                <cell><p>This is used to hold the track in place.  Note the size of rod that fits through the hole on this clamp. <alert>CAUTION</alert>: Do not over-tighten this clamp.  <em>The track should not be bent
+                                by the clamp!</em></p></cell></row>
+                        <row bottom="minor"><cell><p>end of AD</p></cell><cell>1 thick metal rod</cell>
+                                <cell><p>Mount vertically off the table</p></cell></row>
+                        <row bottom="minor"><cell>end of AD</cell><cell>1 small rod</cell>
+                                <cell><p>This is used to connect the clamp to the thick rod</p></cell></row>
+                        <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
+                                <cell><p>This is used to measure the elongation of the spring.</p></cell></row>
+                        <row bottom="minor"><cell>AF44</cell><cell>hangers and various masses</cell>
+                                <cell><p>each table should have a similar distribution of large and small mass sizes (<alert>Check with instructor</alert>: Your instructor might prefer to use the AF34 box of black hanging
+                                cylinders.)</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>AF43</p></cell><cell><p>2 boxes of colored springs</p></cell>
+                                <cell><p>Students will be allowed to select their spring.  <alert>Check with instructor</alert>: Your instructor might want specific springs distributed to the tables</p></cell></row>
+                </tabular>
+        </table>
+        <todo>If there is a different (better?) way to set up the track, then we need a picture of it.</todo>
+
+        <figure xml:id="f-springs">
+                <caption>The equipment setup version <q>A</q>.  Your instructor might want the track setup in a different way.</caption>
+		<!-- Portrait orientation images need to be reduced for the PDF version -->
+                <image xml:id="i-springs-overall-A" width="50%" source="images/i-springs-overall-A.jpg" />
+        </figure>
+        <figure xml:id="f-springs-2">
+                <caption>The equipment setup version <q>A</q>.  Your instructor might want the track setup in a different way.</caption>
+                <image xml:id="i-springs-clamps-A" source="images/i-springs-clamp-A.jpg" />
+        </figure>
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-springs.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/springs.pdf">springs.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-pendulum"><title>Pendulum / Peer Review</title>
+
+        <warning><p>This lab might be set-up by itself or it might be paired with <xref ref="s-springs" text="title" />.  <alert>Check with your instructor</alert> to see if this is part of the <q>Peer Review</q> setup.  If so, then discuss the setup.  The instructor might
+        want both Springs and Pendulum in both the morning and afternoon labs (in which case you need to verify how many setups of each lab and which tables), or the instructor might want one lab setup in the morning and a different lab setup in the
+        afternoon.</p></warning>
+
+        <table xml:id="t-pendulum">
+        <caption>Equipment Needed: <xref ref="s-pendulum" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>AA??, maybe AA41?</p></cell><cell>1 plastic protractor</cell>
+                                <cell><p>To measure the amplitude of the pendulum swing.</p></cell></row>
+                        <row bottom="minor"><cell>AA12</cell><cell>1 stop watch</cell>
+                                <cell><p>Verify that they work and have good batteries.</p> <p><alert>You might need to purchase new batteries for department!!</alert> </p></cell></row>
+                        <row bottom="minor"><cell>AD21</cell><cell><p>1 3-notch black <q>arm</q> support</p></cell>
+                                <cell><p>See picture below for how to mount the string inside the clamp.  Do not just wrap it around the screw; clamp it inside the metal piece, which you should note has a nub holding it in place. (Take
+                                the metal square off, you'll see what I mean.)</p></cell></row>
+                        <row bottom="minor"><cell>AD71</cell><cell>1 C-clamp</cell>
+                                <cell><p><alert>Important:</alert> There are small pieces of cardboard available to place between the clamp and the lab table so that you do not add dents to the table!</p></cell></row>
+                        <row bottom="minor"><cell><p>end of AD</p></cell><cell>1 thick metal rod</cell>
+                                <cell><p>Mount vertically off the table</p></cell></row>
+                        <row bottom="minor"><cell>AF44</cell><cell>hangers and various masses</cell>
+                                <cell><p>each table should have a similar distribution of large and small mass sizes (<alert>Check with instructor</alert>: Your instructor might prefer to use the AF34 box of black hanging
+                                cylinders.)</p></cell></row>
+                </tabular>
+        </table>
+        <todo>(1) This overview picture auto-focused on the background instead of on the equipment.  Maybe take a better (neutral background and focus on equipment) picture?
+                (2) Need a picture of equipment laid out.
+                (3) Let Dr. Christensen know where the protractors are.</todo>
+
+        <figure xml:id="f-pendulum">
+                <caption>The equipment setup.</caption>
+		<!-- Portrait orientation images need to be reduced for the PDF version -->
+                <image xml:id="i-pendulum-overall" width="50%" source="images/i-pendulum-overall.jpg" />
+        </figure>
+        <figure xml:id="f-pendulum-2">
+                <caption>The equipment setup.</caption>
+		<!-- ZOOMED Portrait orientation images might need to be reduced for the PDF version -->
+                <image xml:id="i-pendulum-clamp" source="images/i-pendulum-clamp.jpg" />
+        </figure>
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-pendulum.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/pendulum.pdf">pendulum.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-energy"><title>Conservation of Energy</title>
+
+        <p><alert>Check with the instructor:</alert>  There are two versions of this lab.  One is designed for a single week; the other is designed to do over two-weeks.  All of the equipment used in the first week would also be used in the second week, but if you are doing the 2-week version, there are two additional items needed during the second week.</p>
+
+        <p><alert>Check with the instructor:</alert>  This lab is written with the intention of having students decide how to measure certain variables.  This arrangement of equipment assumes that some equipment will be at the front of the room available for students to select; however, your instructor might prefer to have all of it at each lab station.  Please confirm with your specific instructor.</p>
+
+        <table xml:id="t-energy">
+        <caption>Equipment Needed: <xref ref="s-energy" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell><cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell><cell><p>These might already be attached to the string in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>(attached to plastic bucket?)</p></cell><cell><p>string</p></cell><cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long.  This is likely in a large box labelled <q>DYNAMIC CARTS
+                                AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>AF22</p></cell><cell><p>C-shaped magnetic for the track</p></cell><cell><p>used in the second part of the lab (it will replace the pulley)</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell><cell><p>used to check the level of the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AF15</p></cell><cell><p>2-3 small wooden squares</p></cell><cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell><cell><p>Computer</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell>
+                                <cell><p>(please verify that these function and are set to metric)</p></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (AKA <q>sonic ranger</q>)</p></cell><cell><p>Should have a black-yellow plug</p></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 force transducer</p></cell><cell><p><alert>This is only needed in the second week</alert> (if you are doing a second week)</p></cell></row>
+                        <row bottom="minor"><cell><p>AD91</p></cell><cell><p>meterstick</p></cell><cell><p>used to measure the height of the hanging basket</p></cell></row>
+                        <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell><cell><p>used to level the string</p></cell></row>
+                        <row bottom="minor"><cell><p>AA41, AA42</p></cell><cell><p>Gravity Protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p>
+                                        <p><em>This really only needs to be a short string with a washer or other small mass tied to it.</em></p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell><cell><p>These are to ride the cart.  A few cylindrical masses in the 200-g to 500-g range.</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell><cell><p>These are to ride the cart. Two black rectangular masses that fit into the cart.</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44 or AL32-5</p></cell><cell><p>tiny weights</p></cell><cell><p>They will only need one or two to accelerate the basket.  Provide an assortment of 7-10 very small masses (2-5 grams). (Pennies would work, too.)</p></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-energy">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-energy-overall" source="images/i-energy-overall.jpg" />
+        </figure>
+
+    <p>(Updated: October 25, 2017)</p>
+    <p>A digital version of the 1-week version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-energy-1.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/energy-1.pdf">energy-1.pdf</url></p>
+    <p>A digital version of the 2-week version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-energy-2.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/energy-2.pdf">energy-2.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<!-- Search-replace  [labname] with the xml:id
+        Search-replace  [Next Lab] with lab title
+        -->
+<section xml:id="s-ballistic"><title>Ballistic Pendulum</title>
+
+        <p>There is <alert>additional work</alert> for you to do beyond simply setting out the equipment this week.
+        <ul>
+                <li><p>You will need to adjust the screws at the top of the pendulum arm.
+                <ul>
+                        <li><p>While making this adjustment, you should remove the pendulum arm and verify the mass that is written on the masking tape.  If that number is wrong, please update the tape and date it.</p></li>
+                        <li><p>When you are making the adjustments, you will need to shoot the gun multiple times.  Please note the following tips for cocking and shooting the gun.
+                        <ul>
+                                <li><p>Put the ball on the gun tip to cushion your hand when cocking the gun.</p></li>
+                                <li><p>Brace your <q>other</q> hand on the back of the trigger-handle while cocking the gun.</p></li>
+                                <li><p>The gun, when shot, has enough kick to bump the whole apparatus back a little, which can cause the pendulum arm to swing before the ball is caught, which might cause the ball to not be caught.  Clamping the apparatus to the table will minimize this.</p></li>
+                                <li><p>If you clamp the apparatus to the table, the clamp needs to be out of the path of the gun -- this affects the way the tables are arranged in the room.</p></li>
+                                <li><p>Be aware of what the gun might hit if it misses the pendulum bob.  Do not shoot it towards people or expensive equipment!</p></li>
+                        </ul></p></li>
+                        <li><p>Your goal while adjusting these screws is to simultaneously allow
+                        <ol>
+                                <li><p>the gun to shoot <em>straight</em> into the pendulum bob AND </p></li>
+                                <li><p>the pendulum to swing back and catch on the notches of the angled platform.</p></li>
+                        </ol></p></li>
+                        <li><p>You <em>might</em> need to trade the arms between the apparatuses.  The steel machines are interchangeable and the red machines are interchangeable, but you cannot interchange the arms between red and steel.</p></li>
+                </ul></p></li>
+                <li><p>You will need to rearrange the lab tables so that students can shoot the gun giving the ball a 2-dimensional trajectory off the end and onto the floor.  Please consider the following: (Assuming the lab room door is on the <alert>north</alert> side of the room)
+                <ul>
+                        <li><p>The northside tables can shoot northwards.  Be sure that the middle table is not aimed at the glass doors.  You might have to move it slightly to the east (front of the room).  The apparatuses should be clamped to the north east corner of the table.  They do not need to be ALL the way north on the table, but if they are too far back from the edge, they might hit the table.</p></li>
+                        <li><p>The three south tables will need to be moved.  You have some options.  In each case, you have to remember to leave room for the lab students to move around without crossing paths and access both their gun and the box that catches the ball being shot.
+                        <ul>
+                                <li><p>The south east and south west tables might be aligned long-ways east-west (rather than long-ways north-south as they are now).  In this case, the south west table (apparatus clamped on the NW corner) shoots west (back of the room) and the south east table (apparatus clamped on the SE corner) shoots east (towards the white board).  These should be pulled to the north-south middle of the room so that the south middle table can be aligned long-ways east-west to the south of these tables and can shoot either east (apparatus clamped on the SE corner) or west (apparatus clamped on the NW corner).</p></li>
+                                <li><p>The south east and south west tables might be aligned long-ways north-south (as they are now); but they should be squeezed to abut the south middle table.  In this case, the tables should be slightly off-set in order to allow students to access their guns and the location their gun fires to, without interfering with their neighbor.  In this case, the south west table (apparatus clamped on the NW corner) shoots west (back of the room) and the south east table (apparatus clamped on the SE corner) shoots east (towards the white board).  The south-west and south-east tables should be moved slightly towards the north-south middle of the room so that the south middle table can stick out a bit to the south of these tables.  The south middle table should shoot east (towards the white board) specifically so that it can be clamped to the south-east corner of the table.</p></li>
+                                <li><p>It is possible to arrange the room so that the southern table shoot to the south, but then the students have to crawl under the counter and they are shooting towards the computers along the south wall.  I recommend against this option.</p></li>
+                                <li><p>When you move the tables, <alert>be aware</alert> that the tables have electrical outlets in them and <alert>all have plugs</alert> that are in the floor or in the wall.  <alert>Be careful not to pull the plugs out of the floor</alert> when moving the tables.  If you get a small screw driver, then you can unwind some extra cable and relocate the stopper that keeps the cable from being re-wound. (See <xref ref="f-ballistic-rearrange" text="type-local" /> below.)</p></li>
+                        </ul></p></li>
+                        <li><p>All tables will need to be adjusted so that there is sufficient room to shoot and land far enough from the wall that a box can be placed between the landing spot and the wall.  If the landing spot is too close to the box, then the ball <em>could</em> bounce off the wall and back onto the carbon paper, which makes the lab more difficult than necessary.  Please leave enough room between the landing spot and the box that protects the wall that the ball does not immediately drop back onto the carbon paper that will be positioned at the landing site.</p></li>
+                </ul></p></li>
+        </ul></p>
+
+        <table xml:id="t-ballistic">
+        <caption>Equipment Needed: <xref ref="s-ballistic" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AF26</cell><cell>Ballistic Pendulum apparatus</cell>
+                                <cell><p>One is missing a foot and uses a black rubber cork as a stabilizer. Several have difficulty with keeping the pendulum portion fixed in place.  You are expected to check the maintenance of this equipment early enough before lab that you (or possibly the instructor) can fix any flaws in the equipment before the lab.  <alert>Do not wait until the last minute to set this lab up!</alert> </p></cell></row>
+                        <row bottom="minor"><cell><p>AD91, AF34</p></cell><cell><p>1 1/2-meter stick, 1 1-meter stick, 1 2-meter stick</p></cell><cell><p>Note they might want more metersticks.</p></cell></row>
+                        <row bottom="minor"><cell><p><stale>AD72</stale> <alert>AD43</alert></p></cell><cell>1 C-clamp</cell>
+                                <cell><p>The AD72 clamps will work for the red ballistic pendulums, because they are short.  The steel ones, though, are too tall and need the AD43 C-clamps.  (I might be wrong about the AD43 bin number; please correct me so I can update this file.)</p>
+                                <p><alert>Important:</alert> There are small pieces of cardboard available to place between the clamp and the lab table so that you do not add dents to the table!</p></cell></row>
+                        <row bottom="minor"><cell><p>?</p></cell><cell><p>pendulum bob</p></cell>
+                                <cell><p>When you find this, tell Dr. Christensen the bin-number so he can update this page.</p></cell></row>
+                        <row bottom="minor"><cell><p>?</p></cell><cell><p>carbon paper</p></cell>
+                                <cell><p>When you find this, tell Dr. Christensen the bin-number so he can update this page.</p></cell></row>
+                        <row bottom="minor"><cell><p>take from the printer in S224A</p></cell><cell><p>5 sheets of printer paper</p></cell>
+                                <cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>?</p></cell><cell><p>bubble level</p></cell>
+                                <cell><p>When you find this, tell Dr. Christensen the bin-number so he can update this page.</p></cell></row>
+                        <row bottom="minor"><cell><p>?</p></cell><cell><p>2 rolls of masking tape</p></cell>
+                                <cell><p>When you find this, tell Dr. Christensen the bin-number so he can update this page.</p></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-ballistic">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-ballistic-overall" source="images/i-ballistic-overall.jpg" />
+        </figure>
+
+        <figure xml:id="f-ballistic-rearrange">
+                <caption>When rearranging the tables, but aware that under each table, there is a cord plugged into the floor or the wall.  These can be unwound and, with a screwdriver, the stopper can be moved so that a longer stretch of cord is extended.</caption>
+                <sidebyside widths="49% 49%">
+                        <image xml:id="i-tight-cord" source="images/i-tight-cord.jpg" />
+                        <image xml:id="i-extend-cord" source="images/i-extend-cord.jpg" />
+                </sidebyside>
+        </figure>
+
+
+
+    <p>(Updated: November 15, 2017)</p>         <!-- Added photo -->
+    <!--        <p>(Updated: November 9, 2017)</p>  Created list -->
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-ballistic.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/ballistic.pdf">ballistic.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-equilibrium"><title>Human Forearm</title>
+
+        <p>For the instructor:  We do <alert>not</alert> have <url href="https://www.cambridge.edu.au/education/about/terms/">permission</url> to reproduce <url href="http://www.dynamicscience.com.au/tester/solutions1/hydraulicus/bicepcurl.gif">this image</url>, but it might be useful for you to have in your head when explaining the lab.</p>
+
+        <table xml:id="t-equilibrium">
+        <caption>Equipment Needed: <xref ref="s-equilibrium" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AD21</cell><cell>3 clamps for the meter-sticks</cell>
+                                <cell><p>These are the little aluminum things that slide onto a meter-stick and have a metal piece that a mass-hanger can hang off of. If the instructor wants you (instead of the students to put these on, notice that two hang down and one hangs up -- see image below.) </p></cell></row>
+                        <row bottom="minor"><cell>AD41</cell><cell>1 2-slot-perpendicular clamp</cell>
+                                <cell><p>This is used to connect the vertical thick rod to the horizontal small rod</p></cell></row>
+                        <row bottom="minor"><cell>AD71</cell><cell>1 C-clamp</cell>
+                                <cell><p><alert>Important:</alert> There are small pieces of cardboard available to place between the clamp and the lab table so that you do not add dents to the table!</p></cell></row>
+                        <row bottom="minor"><cell>AD82</cell><cell>1 clamp</cell>
+                                <cell><p>This is used to hold the track in place.  Note the size of rod that fits through the hole on this clamp. <alert>CAUTION</alert>: Do not over-tighten this clamp.  <em>The track should not be bent
+                                by the clamp!</em></p></cell></row>
+                        <row bottom="minor"><cell>AD91</cell><cell>1 1-meter stick</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell><p>end of AD</p></cell><cell>1 thick metal rod</cell>
+                                <cell><p>Mount vertically off the table</p></cell></row>
+                        <row bottom="minor"><cell>end of AD</cell><cell>1 small rod</cell>
+                                <cell><p>This is used to connect the clamp to the thick rod</p></cell></row>
+                        <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
+                                <cell><p>This is used to measure the elongation of the spring.</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell>
+                                <cell><p>These likely have string attached and are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF34</cell><cell>1 1/2-meter stick</cell>
+                                <cell><p>(might need a 1/2-meter stick)</p></cell></row>
+                        <row bottom="minor"><cell>AF43</cell><cell>1 spring</cell>
+                                <cell><p>(any color)</p></cell></row>
+                        <row bottom="minor"><cell>AF43</cell><cell>1 small rectangular mirror</cell>
+                                <cell><p>These are for minimizing parallax.</p></cell></row>
+                         <row bottom="minor"><cell>AF44</cell><cell>hangers and various masses</cell>
+                                <cell><p>The hangers might be in AF43, but their home is AF44.</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for instructor to use</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>AK32</p></cell><cell><p>Model of Human Forearm</p></cell>
+                                <cell><p>This is in a white cardboard box.  The label might or might not be facing outwards.</p></cell></row>
+               </tabular>
+        </table>
+
+        <figure xml:id="f-equilibrium-1">
+                <caption>The necessary equipment laid out.</caption>
+                <image xml:id="i-forearm-equip" source="images/i-forearm-equip-landscape.jpg" />
+        </figure>
+        <figure xml:id="f-equilibrium-2">
+		<caption><alert>If</alert> your instructor wants you to set up the <q>arm</q>, then this is how it is connected.  Notice that the two clamps on the outer edges hang down and the clamp connected to the spring <q>hangs</q> up.</caption>
+                <image xml:id="i-forearm-setup" source="images/i-forearm-setup.jpg" />
+        </figure>
+        <figure xml:id="f-equilibrium-3">
+		<caption>How to set up the support.  Recall also <xref ref="f-springs" text="type-global" /> and <xref ref="f-springs-2" text="type-global" />.</caption>
+                <image xml:id="i-forearm-stand" source="images/i-forearm-stand.jpg" />
+        </figure>
+
+    <p>(Updated: November 15, 2017)</p>  <!-- reconfigured with the track with ruler on it. Added pictures  -->
+<!--     <p>(Updated: February 27, 2013)</p>  -->
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-equilibrium.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/equilibrium.pdf">equilibrium.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<!-- Search-replace  [labname] with the xml:id
+        Search-replace  [Next Lab] with lab title
+        -->
+<section xml:id="s-labname"><title>Next Lab</title>
+
+        <table xml:id="t-labname">
+        <caption>Equipment Needed: <xref ref="s-labname" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>.</p></cell><cell><p>.</p></cell>
+                                <cell><p>.</p></cell></row>
+                </tabular>
+        </table>
+        <todo>Need a picture of equipment laid out.</todo>
+
+<!--
+        <figure xml:id="f-labname">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-labname-overall" source="images/i-labname-overall.jpg" />
+        </figure>
+-->
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/121/c-labname.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/labname.pdf">labname.pdf</url></p>
+
+</section>
+
+
+</chapter>
+
+<!-- ********************************************************************************************** -->
+<!-- ********************************************************************************************** -->
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="PHY122"> <title>PHY122L: Elements of Physics (algebra-based, spring)</title>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-122skills"><title>Skills Review</title>
+
+<p>There is no lab equipment to be set up for this lab.  The instructor will provide the students with a worksheet.</p>
+
+    <p>(Updated: Jan 8, 2018)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/122/c-122skills.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/122/122skills.pdf">122skills.pdf</url></p>
+
+</section>
+
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-122Archimedes"><title>Archimedes' Principle</title>
+
+        <p>You might also review <xref ref="s-241Archimedes" text="title" /> for another version with less advice for setting up the lab.</p>
+        <table xml:id="t-122Archimedes">
+        <caption>Equipment Needed: <xref ref="s-122Archimedes" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AA13</cell><cell>Vernier Caliper </cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>AC11-12</p></cell><cell><p><em>precise</em> graduated cylinder</p></cell>
+                                <cell><p>You will probably need the tall, skinny ones, but the important thing is to get the cylinders with the finest gradation in their measurement.</p></cell></row>
+                        <row bottom="minor"><cell><p>AE82</p></cell><cell><p>One brass cylinder  <alert>NOTE</alert>: your instructor might want a variety of shapes of objects.</p></cell>
+                                <cell><p>These are in a box in the AE82 drawer, but you can use other cylinders from a different drawer or other shapes if indicated by the instructor.</p></cell></row>
+                        <row bottom="minor"><cell>AF35</cell><cell>Balance scale</cell>
+                                <cell><p>The porcelain scales are fragile.  Please be careful when handling these balances.  These will be placed on the short rods.  You should ask you instructor if they want you to do this. There is a picture below.</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>A tray of masses.</p></cell>
+                                <cell><p> (I suggest using the cylindrical masses even though they do not need a hanger.)  These will be used on the second scale of the scale-balance and should be at least as heavy as they cylinder placed at the table.</p></cell></row>
+                        <row bottom="minor"><cell><p>end of AF</p></cell><cell><p>short rod that screws into the table-top.</p></cell>
+                                <cell><p>Shorter is better.  The balance scale will be placed on top of this and short rods will wobble less.</p></cell></row>
+                        <row bottom="minor"><cell><p>AG14</p></cell><cell><p>Lab Jack</p></cell>
+                                <cell><p>These need to be tall enough to place the spill container high enough under the balance, which is on the pole, so that the string from the balance reaches into the container.  You might need to tie a new string to attach the metal cylinder to the balance.</p></cell></row>
+                        <row bottom="minor"><cell><p>AG44</p></cell><cell><p>Spill container</p></cell>
+                                <cell><p>These are the aluminum <q>cups</q> that have a small spout projecting from the side near the top.</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>either AC11 or AG35</p></cell><cell><p>EITHER the drinking glass (with the slight bulge 3/4 of the way up, in AC11) OR the small beaker (with a pour-spout, in AC11) OR the black and silver cups (in AG35)</p></cell>
+                                <cell><p>This will be used as the <q>boat</q> that will carry the pennies.  The point is to see how many pennies it take to sink; the glass makes it difficult to measure volume, but the beaker has a thick lip and a lowered pour-spout.  The instructor may want a different boat, such as the aluminum cup in the calorimeter (AG44?) from the <xref ref="s-specheat" text="title">specific heat lab</xref>; but that has a very large lip.  <alert>NOTE</alert>: The instructor might want one boat at the front for everybody to use, or the instructor might want each table to have their own boat.</p></cell></row>
+                        <row bottom="minor"><cell><p>either AH18 or AF63</p></cell><cell><p>a tank for holding several gallons of water</p></cell>
+                                <cell><p>There are two cylindrical tanks at AH18; You should only need the smaller tank, but the instructor might want a larger one.  There is a fish tank at AF63 that should also work.  Your instructor might want you to fill the tank with water.  It should be deep enough that the <q>boat</q> can sink below the depth of water.  </p></cell></row>
+                        <row bottom="minor"><cell><p>AL32</p></cell><cell><p>pennies</p></cell>
+                                <cell><p>You need enough to sink the boat, but each sinking gets the pennies wet.  Since the pennies are annoying to dry off, there should be enough pennies to sink at least one (maybe two) boats per group. Before putting the pennies away, you should make sure to dry them off so they don't get moldy.  You can use a towel for the most part, but they might have to sit out overnight.  <alert>NOTE</alert>: The instructor might want the pennies distributed among the tables.</p></cell></row>
+                </tabular>
+        </table>
+        <todo>Need a picture of equipment laid out.</todo>
+
+        <figure xml:id="f-122Archimedes-1">
+                <caption>The equipment setup for each group.  (Caliper not shown, but needed)</caption>
+                <image xml:id="i-122Archimedes-1" source="images/i-122Archimedes-1.jpg" />
+        </figure>
+
+        <figure xml:id="f-122Archimedes-2">
+                <caption>The equipment setup showing the balance on the pole.</caption>
+                <image xml:id="i-122Archimedes-2" source="images/i-122Archimedes-2.jpg" />
+        </figure>
+
+        <figure xml:id="f-122Archimedes-3">
+                <caption>The equipment setup for the front of the room.</caption>
+                <image xml:id="i-122Archimedes-3" source="images/i-122Archimedes-3.jpg" />
+        </figure>
+
+    <p>(Updated: Jan 9, 2018)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/labs/122/c-Archimedes.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/labs/122/Archimedes.pdf">Archimedes.pdf</url></p>
+
+</section>
+
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-battery"><title>Properties of a Battery</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-battery">
+        <caption>Equipment Needed: <xref ref="s-rbridge" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell>Ensure that the non-major equipment is used</cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell></cell></row>
+<row bottom="minor"><cell>Electronics Lab</cell><cell>Resistors </cell><cell></cell></row>
+<row bottom="minor"><cell>AL12</cell><cell>Batteries </cell><cell></cell></row>
+<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell>Wires and Wire attachments </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-battery">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-battery" source="images/i-battery.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/122/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/122/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+
+
+</chapter>
+<!-- ********************************************************************************************** -->
+<!-- ********************************************************************************************** -->
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="PHY141"> <title>PHY141L: General Physics I (calculus-based, spring)</title>
+
+<p>See also <xref ref="PHY121" text="title" /></p>
+
+</chapter>
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="PHY142"> <title>PHY142L: General Physics II (calculus-based, spring)</title>
+
+<introduction>
+<p>See also <xref ref="PHY122" text="title" /></p>
+</introduction>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-Ohmslaw"><title>Ohm's Law (Ohmic material)</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-Ohmslaw">
+        <caption>Equipment Needed: <xref ref="s-Ohmslaw" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell><p>(JS listed a function generator AK23)</p></cell></row>
+<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell>Wires and Wire attachments </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell>Requires 4</cell></row>
+<row bottom="minor"><cell>AI25</cell><cell>Ammeter </cell><cell>Around 3 to 10 amps</cell></row>
+<row bottom="minor"><cell>Electronics Room</cell><cell>Resisters and Diodes </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-Ohmslaw">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-Ohmslaw" source="images/i-Ohmslaw.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/142/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/142/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-nonohmic"><title>Ohm's Law (non-Ohmic material)</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-nonohmic">
+        <caption>Equipment Needed: <xref ref="s-nonohmic" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Function Generator </cell><cell></cell></row>
+<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell>Wires and Wire attachments </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell>Requires 4</cell></row>
+<row bottom="minor"><cell>Electronics Room</cell><cell>Resisters and Diodes </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-nonohmic">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-nonohmic" source="images/i-nonohmic.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/142/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/142/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-efield"><title>Mapping the Electric Field</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-efield">
+        <caption>Equipment Needed: <xref ref="s-efield" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell></cell></row>
+<row bottom="minor"><cell>End cap of J <ampersand /> K</cell><cell>Wire and Wire Supplies </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell><p>JS also lists AJ43 and </p><p>AJ25: Small Black ones <ampersand /> Large Blue ones;
+AJ24: Small Blue ones <ampersand /> Boxed ones;
+AI15: Ones with three buttons
+</p>
+</cell></row>
+<row bottom="minor"><cell>AG24</cell><cell>Field Plate Apparatus and Field Plates </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-efield">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-efield" source="images/i-efield.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/142/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/142/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-rbridge"><title>Resistor Bridge</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-rbridge">
+        <caption>Equipment Needed: <xref ref="s-rbridge" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AJ43</cell><cell>Bridge Apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>AJ24</cell><cell>Resistor Coil Set </cell><cell></cell></row>
+<row bottom="minor"><cell>AJ23</cell><cell>Resistor Box </cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Power Supply </cell><cell></cell></row>
+<row bottom="minor"><cell>End of Isle J <ampersand /> K</cell><cell>Wires <ampersand /> Supplies </cell><cell></cell></row>
+<row bottom="minor"><cell>AI15</cell><cell>Galvanometer </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-rbridge">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-rbridge" source="images/i-rbridge.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/142/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/142/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-mfield"><title>Magnetic Field Strength</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-mfield">
+        <caption>Equipment Needed: <xref ref="s-mfield" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AM36</cell><cell>Magnet </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>2 Lab Jacks </cell><cell></cell></row>
+<row bottom="minor"><cell>AF34</cell><cell>Ruler </cell><cell></cell></row>
+<row bottom="minor"><cell>AF15</cell><cell>2 Blocks of Wood </cell><cell></cell></row>
+<row bottom="minor"><cell>Room S224 Closet</cell><cell>Magnetic Sensor </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-mfield">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-mfield" source="images/i-mfield.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/142/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/142/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-iforce"><title>High Current Force</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-iforce">
+        <caption>Equipment Needed: <xref ref="s-iforce" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>BA14</cell><cell>Current apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>AE61</cell><cell>Double-throw Switch </cell><cell></cell></row>
+<row bottom="minor"><cell>AF34</cell><cell>Ruler </cell><cell></cell></row>
+<row bottom="minor"><cell>End of Isle J <ampersand />K</cell><cell>Wire and Supplies </cell><cell></cell></row>
+<row bottom="minor"><cell>AK12</cell><cell>High Current Power Supply </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell></cell></row>
+<row bottom="minor"><cell>AA13</cell><cell>Caliper</cell><cell>(inconsistent listing)</cell></row>
+<row bottom="minor"><cell>AF43</cell><cell>Small mass set</cell><cell>(inconsistent listing)</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-iforce">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-iforce" source="images/i-iforce.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/142/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/142/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-magtube"><title>Magnet in a Tube</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-magtube">
+        <caption>Equipment Needed: <xref ref="s-magtube" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AH63</cell><cell>Magnetic pipe apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>white box</cell><cell>Magnet and non-magnet</cell><cell></cell></row>
+<row bottom="minor"><cell>-</cell><cell>Foam Pads</cell><cell></cell></row>
+<row bottom="minor"><cell>S224 Closet</cell><cell>Force Sensor </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-magtube">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-magtube" source="images/i-magtube.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/142/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/142/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-RCvary"><title>Capacitor and Variable Resistor</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-RCvary">
+        <caption>Equipment Needed: <xref ref="s-RCvary" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Function Generator </cell><cell></cell></row>
+<row bottom="minor"><cell>End of Isle J <ampersand /> K</cell><cell>Wire and Supplies </cell><cell></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell></cell></row>
+<row bottom="minor"><cell>AJ13</cell><cell>Resistor Apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>AJ26</cell><cell>Varying Resistor Bored </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-RCvary">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-RCvary" source="images/i-RCvary.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/142/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/142/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+
+</chapter>
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="PHY241"> <title>PHY241L: General Physics III (calculus-based, spring)</title>
+
+<introduction>
+<p>See also <xref ref="PHY122" text="title" /></p>
+</introduction>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-241Archimedes"><title>Archimedes' Principle</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. Please also review <xref ref="s-122Archimedes" text="title" /> for another version with additional advice for setting up the lab.</p>
+        <table xml:id="t-241Archimedes">
+        <caption>Equipment Needed: <xref ref="s-241Archimedes" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AA13</cell><cell>Vernier Caliper </cell><cell></cell></row>
+<row bottom="minor"><cell>AC11 (aisle E)</cell><cell>Beaker </cell><cell></cell></row>
+<row bottom="minor"><cell>AE82</cell><cell>Objects </cell><cell></cell></row>
+<row bottom="minor"><cell>AG44</cell><cell>Overflow Cup </cell><cell></cell></row>
+<row bottom="minor"><cell>AF35</cell><cell>Scales </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AG35</cell><cell>Black and silver cups</cell><cell><q>Boats</q></cell></row>
+<row bottom="minor"><cell>AL32</cell><cell>Pennies</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AF63</cell><cell>Fish Tank </cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-241Archimedes-1">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-241Archimedes-1" source="images/i-241Archimedes-1.jpg" />
+        </figure>
+
+        <figure xml:id="f-241Archimedes-2">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-241Archimedes-2" source="images/i-241Archimedes-2.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-standing"><title>Standing Waves</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-standing">
+        <caption>Equipment Needed: <xref ref="s-standing" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Function generator </cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>two-meter stick</cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AG16</cell><cell>Lead Brick </cell><cell></cell></row>
+<row bottom="minor"><cell>AD72 <ampersand /> AE81</cell><cell>Pulley system </cell><cell></cell></row>
+<row bottom="minor"><cell>AF13</cell><cell>Vibrator </cell><cell></cell></row>
+<row bottom="minor"><cell>Inside of the vibrator box</cell><cell>String </cell><cell></cell></row>
+<row bottom="minor"><cell>AF44</cell><cell>Masses and Hooks </cell><cell></cell></row>
+<row bottom="minor"><cell>End cap of isle J <ampersand /> K</cell><cell>Wires </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AN24</cell><cell>Strobe light </cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-standing">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-standing" source="images/i-standing.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-sound"><title>Speed of Sound in a Tube</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-sound">
+        <caption>Equipment Needed: <xref ref="s-sound" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK63</cell><cell>Speaker </cell><cell></cell></row>
+<row bottom="minor"><cell>Room S224 Closet</cell><cell>Sound Sensor </cell><cell></cell></row>
+<row bottom="minor"><cell>AF12</cell><cell>Cardboard Tube </cell><cell>Use the cardboard tubes used to hold the aluminum tracks</cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>two-meter stick </cell><cell></cell></row>
+<row bottom="minor"><cell>AK23</cell><cell>Function Generator </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-sound">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-sound" source="images/i-sound.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-expansion"><title>Thermal Expansion</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-expansion">
+        <caption>Equipment Needed: <xref ref="s-expansion" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>S224 closet</cell><cell>Mirror </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Hot plate </cell><cell>Only have 5</cell></row>
+<row bottom="minor"><cell>AG15</cell><cell>Gloves </cell><cell></cell></row>
+<row bottom="minor"><cell>AF31</cell><cell>Jar and Lid </cell><cell></cell></row>
+<row bottom="minor"><cell>AG55 <ampersand /> AG56</cell><cell>Apparatus: Pipe, tubing, and pan</cell><cell><p>Pan can be found at AG45</p></cell></row>
+<row bottom="minor"><cell>AG56</cell><cell>Expansion rods </cell><cell></cell></row>
+<row bottom="minor"><cell>AE41</cell><cell>Stoppers </cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>Meter stick </cell><cell></cell></row>
+<row bottom="minor"><cell>Room S224</cell><cell>Thermometer </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-expansion">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-expansion" source="images/i-expansion.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-Boyleslaw"><title>Boyle's Law</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-Boyleslaw">
+        <caption>Equipment Needed: <xref ref="s-Boyleslaw" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle G <ampersand /> H</cell><cell>Boyle's law apparatus </cell><cell></cell></row>
+<row bottom="minor"><cell>Faucet</cell><cell>water</cell><cell>(fill the apparatus to the appropriate height)</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-Boyleslaw">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-Boyleslaw" source="images/i-Boyleslaw.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-specheat"><title>Specific Heat Capacity</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-specheat">
+        <caption>Equipment Needed: <xref ref="s-specheat" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AC11</cell><cell>Beaker</cell><cell></cell></row>
+<row bottom="minor"><cell>AG44</cell><cell>Calorimeter</cell><cell>the insulated cup</cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Hot Plate </cell><cell>only have 5</cell></row>
+<row bottom="minor"><cell>Room S224, BB21</cell><cell>2 Thermometers </cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>Rods </cell><cell></cell></row>
+<row bottom="minor"><cell>AG37</cell><cell>Objects </cell><cell></cell></row>
+<row bottom="minor"><cell>AF15 (AG15?)</cell><cell>Gloves </cell><cell></cell></row>
+<row bottom="minor"><cell>AE21</cell><cell>string</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-specheat-2">
+                <caption>The equipment setup (revised).</caption>
+                <image xml:id="i-specheat-2" source="images/i-specheat-2.jpg" />
+        </figure>
+
+        <figure xml:id="f-specheat">
+                <caption>The equipment setup (old version, but better view of most equipment).</caption>
+                <image xml:id="i-specheat" source="images/i-specheat.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-cooling"><title>Newton's Law of Cooling</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-cooling">
+        <caption>Equipment Needed: <xref ref="s-cooling" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Hot Plate </cell><cell></cell></row>
+<row bottom="minor"><cell>AG11</cell><cell>Large and Small Beaker </cell><cell></cell></row>
+<row bottom="minor"><cell>End of isle F</cell><cell>Stand to hold objects and Wires </cell><cell></cell></row>
+<row bottom="minor"><cell>Room S224, BB21</cell><cell>Thermometer </cell><cell></cell></row>
+<row bottom="minor"><cell>AF15</cell><cell>Gloves </cell><cell></cell></row>
+<row bottom="minor"><cell>Either in lab room or room S224</cell><cell>Computer with Pasco </cell><cell></cell></row>
+<row bottom="minor"><cell>AG58</cell><cell>Bottles </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-cooling">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-cooling" source="images/i-cooling.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-refraction"><title>Snell's Law of Refraction</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-refraction">
+        <caption>Equipment Needed: <xref ref="s-refraction" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AH34</cell><cell>Refraction Plates </cell><cell></cell></row>
+<row bottom="minor"><cell>AH45</cell><cell>Card bored Plates </cell><cell></cell></row>
+<row bottom="minor"><cell>AAAA</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AA43</cell><cell>Pins </cell><cell></cell></row>
+<row bottom="minor"><cell>AA42</cell><cell>Protractor </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-refraction">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-refraction" source="images/i-refraction.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-reflectionrefraction"><title>Reflection and Refraction</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-reflectionrefraction">
+        <caption>Equipment Needed: <xref ref="s-reflectionrefraction" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AH34</cell><cell>Refraction Plates </cell><cell></cell></row>
+<row bottom="minor"><cell>AH45</cell><cell>Cardboard Plates </cell><cell></cell></row>
+<row bottom="minor"><cell>AH45</cell><cell>Red Plastic Lens </cell><cell></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Lamps </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AA21</cell><cell>Hinged Mirror </cell><cell></cell></row>
+<row bottom="minor"><cell>AA43</cell><cell>Pins </cell><cell></cell></row>
+<row bottom="minor"><cell>AA42</cell><cell>Protractor </cell><cell></cell></row>
+<row bottom="minor"><cell>AG12</cell><cell>Light Pipe </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-reflectionrefraction">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-reflectionrefraction" source="images/i-reflectionrefraction.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-radiation"><title>Radiation</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-radiation">
+        <caption>Equipment Needed: <xref ref="s-radiation" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>(ASK)</cell><cell>Radioactive Samples</cell><cell></cell></row>
+<row bottom="minor"><cell>AG16</cell><cell>Lead Bricks </cell><cell></cell></row>
+<row bottom="minor"><cell>-</cell><cell>Stop Watch</cell><cell></cell></row>
+<row bottom="minor"><cell>AM53</cell><cell>Geiger counter </cell><cell></cell></row>
+<row bottom="minor"><cell>AM43</cell><cell>Shields </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+<!--
+        <figure xml:id="f-radiation">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-radiation" source="images/i-radiation.jpg" />
+        </figure>
+-->
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-interferometer"><title>Interferometer</title>
+
+        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <table xml:id="t-interferometer">
+        <caption>Equipment Needed: <xref ref="s-interferometer" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AN32</cell><cell>Interferometer </cell><cell></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>AK4</cell><cell>Screen </cell><cell></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab Jacks </cell><cell></cell></row>
+<row bottom="minor"><cell>AG12</cell><cell>Hand Pump </cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-interferometer">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-interferometer" source="images/i-interferometer.jpg" />
+        </figure>
+
+    <p>(Updated: 2013)</p>
+<!--
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
+-->
+
+</section>
+
+
+</chapter>
+<!-- ********************************************************************************************** -->
+
+
+</book>
+</mathbook>
