@@ -1,7 +1,11 @@
 #ignore the HTML files
 *.html
+*.htm
 # ignore the TEX details, but keep the pdf
 TMC-lab-setup.*
 # Generally ignore XLSX files
 *.xlsx
 *.XLSX
+# on PHYSICS we need to ignore the lab directories
+121/*
+122/*
