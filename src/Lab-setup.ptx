@@ -852,9 +852,53 @@
 
 <!-- ********************************************************************************************** -->
 
+<section xml:id="s-spheat"><title>Specific and Latent Heat</title>
+
+        <p><alert>Note:</alert> The faculty member might be doing just specific heat or might be doing both specific and latent heat.  Please ask the instructor if the latent heat items are needed.</p>
+        <table xml:id="t-spheat">
+        <caption>Equipment Needed: <xref ref="s-spheat" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>BB21</cell><cell>thermometer</cell><cell><p>(These are in the drawer under the sink in S224.)</p></cell></row>
+<row bottom="minor"><cell>AC21</cell><cell>2 beakers</cell><cell><p>One beaker should be <m>400 \unit{mL}</m> and the other should be <m>1000\unit{mL}</m> </p></cell></row>
+<row bottom="minor"><cell>AD41</cell><cell><m>90^\circ</m> clamp</cell><cell><p>This should connect a vertical rod to a horizontal rod</p></cell></row>
+<row bottom="minor"><cell><p>end of A</p></cell><cell>2 small rods</cell><cell><p>One should go into the table hole, the other should cantilever out over the boiling water</p></cell></row>
+<row bottom="minor"><cell>AE21</cell><cell>string</cell><cell></cell></row>
+<row bottom="minor"><cell>AE82</cell><cell><p>Spheres with holes</p></cell><cell><p>(Check with instructor) This is one of several objects that the instructor might want to have students use as <q>hot metal</q>.</p></cell></row>
+<row bottom="minor"><cell>AF44</cell><cell><p>Brass cylinders</p></cell><cell><p>(Check with instructor) This is one of several objects that the instructor might want to have students use as <q>hot metal</q>.</p></cell></row>
+<row bottom="minor"><cell>AF44</cell><cell><p>Aluminum blocks</p></cell><cell><p>(Check with instructor) This is one of several objects that the instructor might want to have students use as <q>hot metal</q>.</p></cell></row>
+<row bottom="minor"><cell>AF44</cell><cell><p>200g cylindrical weight</p></cell><cell><p>(Check with instructor) This is one of several objects that the instructor might want to have students use as <q>hot metal</q>.</p></cell></row>
+<row bottom="minor"><cell>AG15</cell><cell>2 oven mitts</cell><cell>(technically gloves)</cell></row>
+<row bottom="minor"><cell>AG44</cell><cell>Calorimeter</cell><cell><p>This is the larger aluminum can with a black rubber ring supporting a smaller aluminum can inside.  It should have a wooden lid with two holes in the lid.  One hole is for the stir-rod (which might be one shelf up) and the other is for the thermometer.  One of these holes should have a cork in it.</p></cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Hot Plate</cell><cell></cell></row>
+<row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AF17?</cell><cell><p>2 large cylindrical <q>buckets</q></p></cell><cell><p>These are used to hold and insulate ice. The smaller cylinder will have the ice that students use.  The larger cylinder will have ice packed around the smaller cylinder.  (This way, the outer ice will melt keeping the inner ice cold enough to not melt.)</p></cell></row>
+<row bottom="minor"><cell><p>Biology Department</p></cell><cell>ice</cell><cell><p>They have an ice machine that we can steal ice from.  But we need to tell them when we are taking it and we should do it at the beginning of our lab.</p></cell></row>
+                </tabular>
+        </table>
+
+<!--
+        <figure xml:id="f-spheat">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-spheat" source="images/i-spheat.jpg" />
+        </figure>
+-->
+
+    <p>(Updated: Feb 2018)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/122/c-spheat.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/122/spheat.pdf">spheat.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
 <section xml:id="s-battery"><title>Properties of a Battery</title>
 
-        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
         <table xml:id="t-battery">
         <caption>Equipment Needed: <xref ref="s-battery" text="title" /></caption>
                 <tabular>
@@ -863,26 +907,26 @@
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
-<row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell>Ensure that the non-major equipment is used</cell></row>
-<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell></cell></row>
-<row bottom="minor"><cell>Electronics Lab</cell><cell>Resistors </cell><cell></cell></row>
-<row bottom="minor"><cell>AL12</cell><cell>Batteries </cell><cell></cell></row>
-<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell>Wires and Wire attachments </cell><cell></cell></row>
+<row bottom="minor"><cell>AK12</cell><cell>Power Supply </cell><cell><p>If this is for the PHY142 class of majors, then use the power supplies at AK55. If this is for the PHY 122 students, then use the power supplies at AK12 and AK22.</p></cell></row>
+<row bottom="minor"><cell>AN22</cell><cell>2 multimeters</cell><cell><p>These should all be the same, if possible.  Use either the BK2905 or the CM2400T. Sometimes these fuses go bad. In that case, the ammeter portion does not work.  It would be best if you could test them before the lab.  (You might put 1-2 spares at the front of the room just in case.)  When the lab is over, you should ask the instructor if any of the fuses shorted out and replace the fuses in those multimeters. </p></cell></row>
+<row bottom="minor"><cell><p>Electronics Room</p></cell><cell>Resistors </cell><cell><p><alert>This is instructor-dependent.</alert> I recommend 8-10 resistors ranging from <m>300\unit{\Omega} - 800 \unit{\Omega}</m> (which allows one to stay on the <m>20 \unit{mA}</m> setting).  I think you can get 2 from each section of the drawers.  You should verify (with an ohm-meter) that they are all different resistors. For the PHY 122 students, the instructor might want the resistors laid out in order.  For the PHY 142 students, the instructor probably does not want them laid out in order. </p></cell></row>
+<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell><p>Wires and Wire attachments</p></cell><cell><p>Each table should have 3 red and 3 black medium length wires</p></cell></row>
+<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell><p>4 alligator clips</p></cell><cell><p>Check to ensure that the clips form a good connection with the wires and do not slip off easily.</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+<row bottom="minor"><cell><p>AL12 / AL14</p></cell><cell>Batteries </cell><cell><p>There should be a mix of good and bad batteries.  Work with the instructor to ensure that if students identify mislabelled batteries, then they should be put into the appropriate bin.  The instructor might not want good and bad batteries identified for students, but we still need to keep them separate.  There should be a mix of <m>9\unit v</m>, <m>6\unit v</m>, and <m>1.5 \unit v</m>.  The AA, AAA, C, and D cell batteries are all <m>1.5 \unit v</m>.</p></cell></row>
                 </tabular>
         </table>
 
         <figure xml:id="f-battery">
-                <caption>The equipment setup.</caption>
+                <caption>The equipment setup.  This image is for the PHY 142 set-up and does not show all of the equipment described above.</caption>
                 <image xml:id="i-battery" source="images/i-battery.jpg" />
         </figure>
 
-    <p>(Updated: 2013)</p>
-<!--
-    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/122/c-centripetal.html" /></p>
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/122/centripetal.pdf">centripetal.pdf</url></p>
--->
+<!--    <p>(Updated: 2013)</p>  Original list from Matthew -->
+    <p>(Updated: Feb 2018)</p>  <!-- Equipment more thoroughly described. -->
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/122/c-battery.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/122/battery.pdf">battery.pdf</url></p>
 
 </section>
 
