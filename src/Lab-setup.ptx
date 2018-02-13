@@ -819,7 +819,7 @@
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell><p>either AC11 or AG35</p></cell><cell><p>EITHER the drinking glass (with the slight bulge 3/4 of the way up, in AC11) OR the small beaker (with a pour-spout, in AC11) OR the black and silver cups (in AG35)</p></cell>
-                                <cell><p>This will be used as the <q>boat</q> that will carry the pennies.  The point is to see how many pennies it take to sink; the glass makes it difficult to measure volume, but the beaker has a thick lip and a lowered pour-spout.  The instructor may want a different boat, such as the aluminum cup in the calorimeter (AG44?) from the <xref ref="s-specheat" text="title">specific heat lab</xref>; but that has a very large lip.  <alert>NOTE</alert>: The instructor might want one boat at the front for everybody to use, or the instructor might want each table to have their own boat.</p></cell></row>
+                                <cell><p>This will be used as the <q>boat</q> that will carry the pennies.  The point is to see how many pennies it take to sink; the glass makes it difficult to measure volume, but the beaker has a thick lip and a lowered pour-spout.  The instructor may want a different boat, such as the aluminum cup in the calorimeter (AG44?) from the <xref ref="s-specheat-142" text="title">specific heat lab</xref>; but that has a very large lip.  <alert>NOTE</alert>: The instructor might want one boat at the front for everybody to use, or the instructor might want each table to have their own boat.</p></cell></row>
                         <row bottom="minor"><cell><p>either AH18 or AF63</p></cell><cell><p>a tank for holding several gallons of water</p></cell>
                                 <cell><p>There are two cylindrical tanks at AH18; You should only need the smaller tank, but the instructor might want a larger one.  There is a fish tank at AF63 that should also work.  Your instructor might want you to fill the tank with water.  It should be deep enough that the <q>boat</q> can sink below the depth of water.  </p></cell></row>
                         <row bottom="minor"><cell><p>AL32</p></cell><cell><p>pennies</p></cell>
@@ -852,11 +852,18 @@
 
 <!-- ********************************************************************************************** -->
 
-<section xml:id="s-spheat"><title>Specific and Latent Heat</title>
+<section xml:id="s-122thermexp"><title>Thermal Expansion</title>
+        <p><alert>Alternate Version:</alert> Please use the set-up in <xref ref="s-expansion" text="title" />.</p>
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-spheat-122"><title>Specific and Latent Heat</title>
 
         <p><alert>Note:</alert> The faculty member might be doing just specific heat or might be doing both specific and latent heat.  Please ask the instructor if the latent heat items are needed.</p>
+        <p><alert>Alternate Version:</alert> Your instructor might want the set-up in <xref ref="s-specheat-142" text="title" />.</p>
         <table xml:id="t-spheat">
-        <caption>Equipment Needed: <xref ref="s-spheat" text="title" /></caption>
+        <caption>Equipment Needed: <xref ref="s-spheat-122" text="title" /></caption>
                 <tabular>
                         <col width="10%" />
                         <col width="30%" />
@@ -864,30 +871,30 @@
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
 <row bottom="minor"><cell>BB21</cell><cell>thermometer</cell><cell><p>(These are in the drawer under the sink in S224.)</p></cell></row>
-<row bottom="minor"><cell>AC21</cell><cell>2 beakers</cell><cell><p>One beaker should be <m>400 \unit{mL}</m> and the other should be <m>1000\unit{mL}</m> </p></cell></row>
+<row bottom="minor"><cell>AC21</cell><cell>2 beakers</cell><cell><p>One beaker should be <m>400 \unit{mL}</m> (for boiling water) and the other should be <m>1000\unit{mL}</m> (for transporting water)</p></cell></row>
 <row bottom="minor"><cell>AD41</cell><cell><m>90^\circ</m> clamp</cell><cell><p>This should connect a vertical rod to a horizontal rod</p></cell></row>
 <row bottom="minor"><cell><p>end of A</p></cell><cell>2 small rods</cell><cell><p>One should go into the table hole, the other should cantilever out over the boiling water</p></cell></row>
 <row bottom="minor"><cell>AE21</cell><cell>string</cell><cell></cell></row>
-<row bottom="minor"><cell>AE82</cell><cell><p>Spheres with holes</p></cell><cell><p>(Check with instructor) This is one of several objects that the instructor might want to have students use as <q>hot metal</q>.</p></cell></row>
-<row bottom="minor"><cell>AF44</cell><cell><p>Brass cylinders</p></cell><cell><p>(Check with instructor) This is one of several objects that the instructor might want to have students use as <q>hot metal</q>.</p></cell></row>
-<row bottom="minor"><cell>AF44</cell><cell><p>Aluminum blocks</p></cell><cell><p>(Check with instructor) This is one of several objects that the instructor might want to have students use as <q>hot metal</q>.</p></cell></row>
-<row bottom="minor"><cell>AF44</cell><cell><p>200g cylindrical weight</p></cell><cell><p>(Check with instructor) This is one of several objects that the instructor might want to have students use as <q>hot metal</q>.</p></cell></row>
-<row bottom="minor"><cell>AG15</cell><cell>2 oven mitts</cell><cell>(technically gloves)</cell></row>
+<row bottom="minor"><cell>Various</cell><cell>metal for heating</cell><cell><p><alert>Check with the instructor</alert>  There are several types of objects that might be used: 
+        <ul><li><p><em>Most likely</em> AG37 blocks with hooks.</p></li>
+              <li><p><em>Alternatives</em>: AE82 Spheres with holes, AF44 Brass cylinders, AF44 Aluminum blocks, AF44 some 200-g cylindrical masses.</p></li>
+        </ul>
+        </p></cell></row>
+<row bottom="minor"><cell>AG15</cell><cell>2 thermal gloves</cell><cell></cell></row>
 <row bottom="minor"><cell>AG44</cell><cell>Calorimeter</cell><cell><p>This is the larger aluminum can with a black rubber ring supporting a smaller aluminum can inside.  It should have a wooden lid with two holes in the lid.  One hole is for the stir-rod (which might be one shelf up) and the other is for the thermometer.  One of these holes should have a cork in it.</p></cell></row>
 <row bottom="minor"><cell>AG45</cell><cell>Hot Plate</cell><cell></cell></row>
 <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
 <row bottom="minor"><cell>AF17?</cell><cell><p>2 large cylindrical <q>buckets</q></p></cell><cell><p>These are used to hold and insulate ice. The smaller cylinder will have the ice that students use.  The larger cylinder will have ice packed around the smaller cylinder.  (This way, the outer ice will melt keeping the inner ice cold enough to not melt.)</p></cell></row>
-<row bottom="minor"><cell><p>Biology Department</p></cell><cell>ice</cell><cell><p>They have an ice machine that we can steal ice from.  But we need to tell them when we are taking it and we should do it at the beginning of our lab.</p></cell></row>
+<row bottom="minor"><cell><p>Biology Dept.</p></cell><cell>ice</cell><cell><p>They have an ice machine that we can steal ice from.  But we need to tell them when we are taking it and we should do it at the beginning of our lab.</p></cell></row>
                 </tabular>
         </table>
 
-<!--
         <figure xml:id="f-spheat">
                 <caption>The equipment setup.</caption>
                 <image xml:id="i-spheat" source="images/i-spheat.jpg" />
         </figure>
--->
+
 
     <p>(Updated: Feb 2018)</p>
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/122/c-spheat.html" /></p>
@@ -1136,9 +1143,13 @@
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
 <row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell></cell></row>
 <row bottom="minor"><cell>End cap of J <ampersand /> K</cell><cell>Wire and Wire Supplies </cell><cell></cell></row>
-<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell><p>JS also lists AJ43 and </p><p>AJ25: Small Black ones <ampersand /> Large Blue ones;
-AJ24: Small Blue ones <ampersand /> Boxed ones;
-AI15: Ones with three buttons
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell><p>JS also lists 
+<ul>
+        <li>AJ43</li>
+        <li>AJ25: Small Black ones <ampersand /> Large Blue ones</li>
+        <li>AJ24: Small Blue ones <ampersand /> Boxed ones;</li> 
+        <li>AI15: Ones with three buttons</li>
+</ul>
 </p>
 </cell></row>
 <row bottom="minor"><cell>AG24</cell><cell>Field Plate Apparatus and Field Plates </cell><cell></cell></row>
@@ -1481,7 +1492,6 @@ AI15: Ones with three buttons
 
 <section xml:id="s-expansion"><title>Thermal Expansion</title>
 
-        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
         <table xml:id="t-expansion">
         <caption>Equipment Needed: <xref ref="s-expansion" text="title" /></caption>
                 <tabular>
@@ -1490,19 +1500,30 @@ AI15: Ones with three buttons
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
-<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell></cell></row>
-<row bottom="minor"><cell>S224 closet</cell><cell>Mirror </cell><cell></cell></row>
-<row bottom="minor"><cell>AG14</cell><cell>Lab jack </cell><cell></cell></row>
-<row bottom="minor"><cell>AG45</cell><cell>Hot plate </cell><cell>Only have 5</cell></row>
-<row bottom="minor"><cell>AG15</cell><cell>Gloves </cell><cell></cell></row>
-<row bottom="minor"><cell>AF31</cell><cell>Jar and Lid </cell><cell></cell></row>
-<row bottom="minor"><cell>AG55 <ampersand /> AG56</cell><cell>Apparatus: Pipe, tubing, and pan</cell><cell><p>Pan can be found at AG45</p></cell></row>
-<row bottom="minor"><cell>AG56</cell><cell>Expansion rods </cell><cell></cell></row>
+<!-- <row bottom="minor"><cell>AD72</cell><cell>C clamp </cell><cell></cell></row> -->
 <row bottom="minor"><cell>AE41</cell><cell>Stoppers </cell><cell></cell></row>
-<row bottom="minor"><cell>End of isle F</cell><cell>Meter stick </cell><cell></cell></row>
-<row bottom="minor"><cell>Room S224</cell><cell>Thermometer </cell><cell></cell></row>
+<!-- <row bottom="minor"><cell>AF (end)</cell><cell>Table post </cell><cell></cell></row> -->
+<row bottom="minor"><cell>AF (end)</cell><cell>Two meter-sticks </cell><cell><p>One at the table to measure the rods and one taped to the wall with masking tape</p></cell></row>
+<row bottom="minor"><cell>AF31?</cell><cell><p>Glass jar with aluminum cap with a spout</p></cell><cell></cell></row>
+<row bottom="minor"><cell>AF34</cell><cell>Ruler </cell><cell></cell></row>
+<!-- <row bottom="minor"><cell>AF44</cell><cell>Bubble level </cell><cell></cell></row> -->
+<row bottom="minor"><cell>AG14</cell><cell>Lab jack </cell><cell><p>Set the lab jack on top of a short lab stool that rests on the lab table. The laser will be placed on top of this during the lab.  (The laser should be on the table until the lab starts so it is less likely to fall to the ground.)</p></cell></row>
+<row bottom="minor"><cell>AG15</cell><cell>Thermal Gloves </cell><cell></cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Hot plate </cell><cell>We might only have 5</cell></row>
+<row bottom="minor"><cell>AG45</cell><cell>Tray </cell><cell>to catch the spilled water</cell></row>
+<row bottom="minor"><cell>AG54</cell><cell>Box of rubber tubing </cell><cell><p>You should only use the plastic tubes, because the rubber ones can melt</p></cell></row>
+<row bottom="minor"><cell>AG55</cell><cell>Base for linear expansion </cell><cell></cell></row>
+<row bottom="minor"><cell>AG55</cell><cell>Box of black corks</cell><cell><p>These probably only fit the central hole (for the thermometer)</p></cell></row>
+<row bottom="minor"><cell>AG55</cell><cell>Towel</cell><cell></cell></row>
+<row bottom="minor"><cell>AG56</cell><cell>Metal tube</cell><cell><p>This has small spouts on either end and an opening in the middle.  <alert>Be sure that the tube has a cork in each end</alert></p></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell></cell></row>
+<row bottom="minor"><cell>BA11 (in S224)</cell><cell>Tripod Mirror </cell><cell></cell></row>
+<row bottom="minor"><cell>BB21 (in S224)</cell><cell>Thermometer </cell><cell></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AG56</cell><cell>Box of expansion rods </cell><cell><p>There should be aluminum, brass, and steel rods.  They should all be the same length and none of them should be hollow.</p></cell></row>
+<row bottom="minor"><cell>Pegboard</cell><cell>Roll of masking tape </cell><cell></cell></row>
+<row bottom="minor"><cell>Toolbox</cell><cell>Needle nose pliers </cell><cell><p>In case a hot rod needs to be adjusted</p></cell></row>
                 </tabular>
         </table>
 
@@ -1511,7 +1532,8 @@ AI15: Ones with three buttons
                 <image xml:id="i-expansion" source="images/i-expansion.jpg" />
         </figure>
 
-    <p>(Updated: 2013)</p>
+        <p>(Updated: Feb, 2018)</p>  <!-- Updated, added comments for context; still has old picture. -->
+<!--    <p>(Updated: 2013)</p> (Matthew's version) -->
 <!--
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/241/c-centripetal.html" /></p>
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/241/centripetal.pdf">centripetal.pdf</url></p>
@@ -1554,11 +1576,12 @@ AI15: Ones with three buttons
 
 <!-- ********************************************************************************************** -->
 
-<section xml:id="s-specheat"><title>Specific Heat Capacity</title>
+<section xml:id="s-specheat-142"><title>Specific Heat Capacity</title>
 
         <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <p><alert>Alternate Version:</alert> Your instructor might want the set-up in <xref ref="s-spheat-122" text="title" />.</p>
         <table xml:id="t-specheat">
-        <caption>Equipment Needed: <xref ref="s-specheat" text="title" /></caption>
+        <caption>Equipment Needed: <xref ref="s-specheat-142" text="title" /></caption>
                 <tabular>
                         <col width="10%" />
                         <col width="30%" />
