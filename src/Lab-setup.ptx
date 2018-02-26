@@ -875,7 +875,7 @@
 <row bottom="minor"><cell>AD41</cell><cell><m>90^\circ</m> clamp</cell><cell><p>This should connect a vertical rod to a horizontal rod</p></cell></row>
 <row bottom="minor"><cell><p>end of A</p></cell><cell>2 small rods</cell><cell><p>One should go into the table hole, the other should cantilever out over the boiling water</p></cell></row>
 <row bottom="minor"><cell>AE21</cell><cell>string</cell><cell></cell></row>
-<row bottom="minor"><cell>Various</cell><cell>metal for heating</cell><cell><p><alert>Check with the instructor</alert>  There are several types of objects that might be used: 
+<row bottom="minor"><cell>Various</cell><cell>metal for heating</cell><cell><p><alert>Check with the instructor</alert>  There are several types of objects that might be used:
         <ul><li><p><em>Most likely</em> AG37 blocks with hooks.</p></li>
               <li><p><em>Alternatives</em>: AE82 Spheres with holes, AF44 Brass cylinders, AF44 Aluminum blocks, AF44 some 200-g cylindrical masses.</p></li>
         </ul>
@@ -917,8 +917,8 @@
 <row bottom="minor"><cell>AK12</cell><cell>Power Supply </cell><cell><p>If this is for the PHY142 class of majors, then use the power supplies at AK55. If this is for the PHY 122 students, then use the power supplies at AK12 and AK22.</p></cell></row>
 <row bottom="minor"><cell>AN22</cell><cell>2 multimeters</cell><cell><p>These should all be the same, if possible.  Use either the BK2905 or the CM2400T. Sometimes these fuses go bad. In that case, the ammeter portion does not work.  It would be best if you could test them before the lab.  (You might put 1-2 spares at the front of the room just in case.)  When the lab is over, you should ask the instructor if any of the fuses shorted out and replace the fuses in those multimeters. </p></cell></row>
 <row bottom="minor"><cell><p>Electronics Room</p></cell><cell>Resistors </cell><cell><p><alert>This is instructor-dependent.</alert> I recommend 8-10 resistors ranging from <m>300\unit{\Omega} - 800 \unit{\Omega}</m> (which allows one to stay on the <m>20 \unit{mA}</m> setting).  I think you can get 2 from each section of the drawers.  You should verify (with an ohm-meter) that they are all different resistors. For the PHY 122 students, the instructor might want the resistors laid out in order.  For the PHY 142 students, the instructor probably does not want them laid out in order. </p></cell></row>
-<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell><p>Wires and Wire attachments</p></cell><cell><p>Each table should have 3 red and 3 black medium length wires</p></cell></row>
-<row bottom="minor"><cell>End Cap of J <ampersand /> K</cell><cell><p>4 alligator clips</p></cell><cell><p>Check to ensure that the clips form a good connection with the wires and do not slip off easily.</p></cell></row>
+<row bottom="minor"><cell><p>End Cap of J <ampersand /> K</p></cell><cell><p>Wires and Wire attachments</p></cell><cell><p>Each table should have 3 red and 3 black medium length wires</p></cell></row>
+<row bottom="minor"><cell><p>End Cap of J <ampersand /> K</p></cell><cell><p>4 alligator clips</p></cell><cell><p>Check to ensure that the clips form a good connection with the wires and do not slip off easily.</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
 <row bottom="minor"><cell><p>AL12 / AL14</p></cell><cell>Batteries </cell><cell><p>There should be a mix of good and bad batteries.  Work with the instructor to ensure that if students identify mislabelled batteries, then they should be put into the appropriate bin.  The instructor might not want good and bad batteries identified for students, but we still need to keep them separate.  There should be a mix of <m>9\unit v</m>, <m>6\unit v</m>, and <m>1.5 \unit v</m>.  The AA, AAA, C, and D cell batteries are all <m>1.5 \unit v</m>.</p></cell></row>
@@ -937,6 +937,39 @@
 
 </section>
 
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-simplens"><title>Simple Lens</title>
+
+        <table xml:id="t-simplens">
+        <caption>Equipment Needed: <xref ref="s-simplens" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+<row bottom="minor"><cell>AK43</cell><cell>Light Source</cell><cell></cell></row>
+<row bottom="minor"><cell>AK44</cell><cell>Optics track</cell><cell><p>These are the black tracks that look like the cart-tracks, but they are different. You might note that one side has a ruler attached.  This ruler-side should be on the side of the table where the student sits.</p></cell></row>
+<row bottom="minor"><cell>AK45</cell><cell>Box of lenses</cell><cell><p>The plastic tub is labeled as having "screens, +10 cm focal length, +20 cm focal length, +25 cm focal length, and -15 cm focal length".  Each table should get a screen and one of each of the positive-focal-length lenses.  We do not need the negative focal length lenses.</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-simplens">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-simplens" source="images/i-simplens.jpg" />
+        </figure>
+
+    <p>(Updated: 2018)</p>
+
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/Labs/122/c-simplens.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/122/simplens.pdf">simplens.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
 
 
 </chapter>
@@ -1143,11 +1176,11 @@
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
 <row bottom="minor"><cell>AK55</cell><cell>Power Supply </cell><cell></cell></row>
 <row bottom="minor"><cell>End cap of J <ampersand /> K</cell><cell>Wire and Wire Supplies </cell><cell></cell></row>
-<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell><p>JS also lists 
+<row bottom="minor"><cell>AN22</cell><cell>Multimeter </cell><cell><p>JS also lists
 <ul>
         <li>AJ43</li>
         <li>AJ25: Small Black ones <ampersand /> Large Blue ones</li>
-        <li>AJ24: Small Blue ones <ampersand /> Boxed ones;</li> 
+        <li>AJ24: Small Blue ones <ampersand /> Boxed ones;</li>
         <li>AI15: Ones with three buttons</li>
 </ul>
 </p>
@@ -1661,7 +1694,7 @@
 
 <section xml:id="s-refraction"><title>Snell's Law of Refraction</title>
 
-        <p><alert>2013 version by Matthew: May need updating.</alert>. </p>
+        <p><alert>Different instructors have different preferences</alert>.  some will want the lasers, others will not.</p>
         <table xml:id="t-refraction">
         <caption>Equipment Needed: <xref ref="s-refraction" text="title" /></caption>
                 <tabular>
@@ -1670,12 +1703,14 @@
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
-<row bottom="minor"><cell>AH34</cell><cell>Refraction Plates </cell><cell></cell></row>
-<row bottom="minor"><cell>AH45</cell><cell>Card bored Plates </cell><cell></cell></row>
-<row bottom="minor"><cell>AAAA</cell><cell>Laser </cell><cell></cell></row>
-<row bottom="minor"><cell>AG14</cell><cell>Lab Jack </cell><cell></cell></row>
+<row bottom="minor"><cell>AH34</cell><cell><p>Thin Refraction squares and triangles</p></cell><cell></cell></row>
+<row bottom="minor"><cell>AH44</cell><cell>Cardboard Plates </cell><cell></cell></row>
 <row bottom="minor"><cell>AA43</cell><cell>Pins </cell><cell></cell></row>
 <row bottom="minor"><cell>AA42</cell><cell>Protractor </cell><cell></cell></row>
+<row bottom="minor"><cell>AH44</cell><cell>Red plates</cell><cell><p><alert>Option:</alert> If the instructor wants <em>reflection and</em> refraction, then they <em>might</em> want to use this as the reflecting surface.</p></cell></row>
+<row bottom="minor"><cell>AF43</cell><cell>plane mirror</cell><cell><p><alert>Option:</alert> If the instructor wants <em>reflection and</em> refraction, then they <em>might</em> want to use this as the reflecting surface.</p></cell></row>
+<row bottom="minor"><cell>AH12</cell><cell>Laser </cell><cell><p><alert>Note:</alert> Not all instructors want the laser; please ask.</p></cell></row>
+<row bottom="minor"><cell>AG14</cell><cell>Lab jack </cell><cell><p><alert>Note:</alert> Only use this if using the laser.</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
                 </tabular>
@@ -1684,6 +1719,16 @@
         <figure xml:id="f-refraction">
                 <caption>The equipment setup.</caption>
                 <image xml:id="i-refraction" source="images/i-refraction.jpg" />
+        </figure>
+
+        <figure xml:id="f-refraction2">
+                <caption>The equipment setup; version 2.</caption>
+                <image xml:id="i-refraction2" source="images/i-refraction2.jpg" />
+        </figure>
+
+        <figure xml:id="f-refractionzoom">
+                <caption>A close-up view of why you need two jacks (to get the laser to line up with the side of the lens).  If the instructor does not want the lasers, then you also do not need the lab jacks.</caption>
+                <image xml:id="i-refractionzoom" source="images/i-refractionzoom.jpg" />
         </figure>
 
     <p>(Updated: 2013)</p>
